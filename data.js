@@ -754,19 +754,19 @@ const SUBJECTS = [
   </div>
   <div class="hbox blue">
     <div class="hbox-label">Issue</div>
-    <div class="hbox-text">The issue is whether a valid contract was formed between Anya and Boris.</div>
+    <div class="hbox-text">Вопрос в том, был ли заключён действительный contract между Аней и Борисом.</div>
   </div>
   <div class="hbox purple">
     <div class="hbox-label">Rule</div>
-    <div class="hbox-text">A contract requires offer, acceptance, and consideration. Under the mirror image rule, acceptance must be unconditional and unequivocal. A response that changes the terms of the offer constitutes a counteroffer, which terminates the original offer.</div>
+    <div class="hbox-text">Для действительного contract необходимы: offer, acceptance и consideration. По mirror image rule акцепт должен быть безусловным и точно соответствовать условиям оферты. Ответ, изменяющий условия offer, является counteroffer, которая прекращает действие первоначальной offer.</div>
   </div>
   <div class="hbox green">
     <div class="hbox-label">Application</div>
-    <div class="hbox-text">Anya made a valid offer of $5,000. Boris's response of $4,500 was not an acceptance — it changed a material term (price) and therefore constituted a counteroffer, which terminated Anya's original offer. When Boris later said "$5,000," he was attempting to accept an offer that no longer existed.</div>
+    <div class="hbox-text">Аня сделала действительную offer на $5,000. Ответ Бориса — $4,500 — не был acceptance: он изменил существенное условие (цену) и тем самым являлся counteroffer, которая прекратила первоначальную offer Ани. Когда Борис позднее согласился на $5,000, он пытался акцептовать offer, которой уже не существовало.</div>
   </div>
   <div class="hbox red">
     <div class="hbox-label">Conclusion</div>
-    <div class="hbox-text">No contract was formed. Boris's counteroffer terminated Anya's original offer, and his subsequent attempt to accept the original terms came too late.</div>
+    <div class="hbox-text">Contract не был заключён. Counteroffer Бориса прекратила первоначальную offer Ани, а его последующая попытка принять первоначальные условия поступила слишком поздно.</div>
   </div>
 </div><div class="l-section">
   <div class="l-section-label">Вариации IRAC</div>
