@@ -1971,6 +1971,88 @@ const SUBJECTS = [
     <div class="hbox-label">Ловушка 3: Beneficiary не может изменить условия</div>
     <div class="hbox-text">Intended beneficiary имеет право enforce на условиях договора. Не может требовать больше, чем в договоре. Не может модифицировать договор. Он standing in the shoes of promisee.</div>
   </div>
+</div><div class="l-section">
+  <div class="l-section-label">Исторические корни деликтного права</div>
+  <p class="l-text">Американское tort law происходит из английских writs — узких форм исков, каждая со своими элементами. Два главных дочерних writ'а дали начало современному разделению:</p>
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-year">XIII в.</div>
+      <div class="tl-text"><strong>Writ of Trespass.</strong> За прямое и применявшее силу нарушение. Фундамент современных intentional torts. Не требовал доказательства вины — достаточно было самого вторжения.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">XIV в.</div>
+      <div class="tl-text"><strong>Trespass on the Case.</strong> За непрямой вред или вред без применения силы. Требовал доказательства actual damage. Отсюда вырос современный negligence.</div>
+    </div>
+    <div class="tl-item highlight">
+      <div class="tl-year">1850</div>
+      <div class="tl-text"><strong>Brown v. Kendall (Mass.).</strong> Шоу судья Lemuel Shaw сформулировал современный стандарт: для ответственности нужна fault (вина), либо intent, либо negligence. До этого — строгая ответственность за causation.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">1928</div>
+      <div class="tl-text"><strong>Palsgraf v. Long Island R.R.</strong> Cardozo формулирует foreseeability как границу duty.</div>
+    </div>
+    <div class="tl-item highlight">
+      <div class="tl-year">1963</div>
+      <div class="tl-text"><strong>Greenman v. Yuba Power Products (Cal.).</strong> Traynor вводит strict products liability — Калифорния лидирует, за два года опережая Restatement (Second) § 402A.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">1965</div>
+      <div class="tl-text"><strong>Restatement (Second) of Torts § 402A.</strong> ALI кодифицирует strict products liability вслед за Greenman.</div>
+    </div>
+    <div class="tl-item highlight">
+      <div class="tl-year">1975</div>
+      <div class="tl-text"><strong>Li v. Yellow Cab (Cal.).</strong> California переходит от contributory negligence (полный барьер) к pure comparative negligence. Лидирующий прецедент для всей страны.</div>
+    </div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Четвёртая категория, которую часто забывают: Nuisance</div>
+  <p class="l-text">Твой урок даёт три категории (intentional / negligence / strict liability). Nuisance — четвёртая, и она не вписывается ни в одну, потому что может быть любой из трёх. На Bar Exam это регулярная тема.</p>
+  <div class="concept-card">
+    <div class="concept-card-title">Private Nuisance</div>
+    <div class="concept-card-body">Существенное и неразумное вмешательство в использование и пользование владельцем своей землёй. Запах фермы, шум фабрики, дым. Remedy — damages + injunction. Тест balancing: gravity harm vs utility of conduct.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Public Nuisance</div>
+    <div class="concept-card-body">Неразумное вмешательство в права, общие для public. Обычно иск подаёт правительство. Частное лицо может судиться только если понесло <strong>special harm</strong>, отличный от вреда обществу в целом.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Vicarious Liability — ответственность за чужие действия</div>
+  <div class="hbox gold">
+    <div class="hbox-label">Respondeat Superior</div>
+    <div class="hbox-text">«Пусть вышестоящий отвечает». Работодатель отвечает за torts работника, совершённые <strong>в пределах service</strong> (scope of employment). Тест <em>frolic and detour</em>: незначительное отклонение (detour) — в пределах; существенное отклонение (frolic) — вне. Intentional torts работника обычно вне scope, кроме случаев, когда насилие присуще работе (bouncer, security).</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Independent Contractors — исключения</div>
+    <div class="concept-card-body">Наниматель <strong>не отвечает</strong> за torts independent contractor. Исключения:<br>• Inherently dangerous activity<br>• Non-delegable duties (безопасность premises для invitees)<br>• Apparent authority — contractor кажется сотрудником</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">California-specific: Automobile Owner Liability</div>
+    <div class="concept-card-body">Cal. Veh. Code § 17150: владелец машины отвечает за negligence любого, кому разрешил водить. Ограничение: $15 000 за телесные повреждения одного лица, $30 000 — нескольких, $5 000 имущественного вреда. Это уникально для Калифорнии — в большинстве штатов нужна отдельная theory (negligent entrustment).</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Сравнение с российским деликтным правом</div>
+  <table class="comp-table">
+    <tr><th>Критерий</th><th class="ru">РФ (гл. 59 ГК)</th><th>США</th></tr>
+    <tr><td>Структура</td><td class="ru">Общие условия деликта (ст. 1064) + специальные составы</td><td>Отдельные torts (battery, negligence, strict liability), каждый со своими элементами</td></tr>
+    <tr><td>Вина</td><td class="ru">Презумпция вины причинителя — он опровергает</td><td>Истец доказывает каждый элемент (включая fault)</td></tr>
+    <tr><td>Моральный вред</td><td class="ru">Ст. 151 ГК — широкая категория</td><td>Pain and suffering, emotional distress — отдельные доктрины с ограничениями</td></tr>
+    <tr><td>Punitive damages</td><td class="ru">Отсутствуют</td><td>Доступны при malice/fraud/oppression</td></tr>
+    <tr><td>Ст. 1079 vs strict liability</td><td class="ru">Источник повышенной опасности</td><td>Abnormally dangerous activities — шире по охвату</td></tr>
+  </table>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Exam Traps</div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 1: Tort vs Contract claim</div>
+    <div class="hbox-text">Один и тот же факт может породить оба иска. <strong>Economic loss rule</strong>: чисто экономические потери (без физического вреда или имущественного ущерба) обычно взыскиваются только через contract, не tort. California применяет этот принцип, но с исключениями (fraud, special relationship).</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 2: Damages без вреда</div>
+    <div class="hbox-text">Intentional torts — некоторые actionable <strong>без реального вреда</strong> (trespass, battery без physical harm): suit for <em>nominal damages</em>. Negligence — <strong>всегда требует</strong> actual damages. Это различие критично для issue spotting.</div>
+  </div>
 </div>`
       },
       {
@@ -2010,6 +2092,100 @@ const SUBJECTS = [
       <strong>Правильный ответ: B.</strong> Нарушение статута (traffic statute) устанавливает breach через доктрину <em>negligence per se</em>: если ответчик нарушил закон, принятый для защиты именно таких истцов от именно таких видов вреда — breach доказан автоматически. Duty (обязанность не причинять вред другим участникам движения) существует по умолчанию для всех водителей.
     </div>
   </div>
+</div><div class="l-section">
+  <div class="l-section-label">Duty — детальный разбор</div>
+  <p class="l-text">Duty — самый сложный элемент negligence. По умолчанию каждый имеет duty reasonable care к foreseeable plaintiffs. Но есть ситуации, где duty modified или отсутствует.</p>
+  <div class="concept-card">
+    <div class="concept-card-title">Cardozo view vs Andrews view</div>
+    <div class="concept-card-body"><strong>Cardozo (majority в Palsgraf):</strong> duty существует только к foreseeable plaintiffs — тем, кто находится в «zone of danger». Если истец непредсказуем — нет duty.<br><strong>Andrews (dissent):</strong> duty существует ко всему миру. Вопрос foreseeability — это proximate cause, не duty.<br><br>Большинство штатов следует Cardozo. California применяет гибридный подход через Rowland factors.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">California-specific: Rowland v. Christian (1968)</div>
+    <div class="concept-card-body">California Supreme Court отменил traditional common law классификацию посетителей недвижимости (invitee/licensee/trespasser). Теперь duty определяется через <strong>семь Rowland factors</strong>:<br>1. Foreseeability of harm<br>2. Degree of certainty of harm<br>3. Close connection between conduct and injury<br>4. Moral blame<br>5. Policy of preventing future harm<br>6. Burden on defendant<br>7. Availability of insurance<br><br>Это принципиальное отличие California от большинства штатов и критическая тема на Cal Bar.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">No duty to rescue — общее правило</div>
+    <div class="concept-card-body">По общему правилу <strong>нет duty</strong> приходить на помощь незнакомцу. Ребёнок тонет в мелком бассейне — прохожий юридически не обязан помогать, даже если это ничего не стоит. Исключения:<br>• <strong>Special relationships</strong>: родитель/ребёнок, работодатель/работник, школа/ученик, отель/гость, перевозчик/пассажир<br>• <strong>Собственное создание опасности</strong> — даже невиновное<br>• <strong>Voluntary undertaking</strong> — начал помогать, обязан продолжать разумно<br>• <strong>Contract</strong> — обязался помогать</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Good Samaritan Laws</div>
+    <div class="concept-card-body">Защищают <strong>добровольных помощников</strong> от ответственности за negligence (но не за gross negligence). Цель — стимулировать помощь. California имеет широкую защиту (Cal. Health & Safety Code § 1799.102): защищает любого, оказывающего emergency medical care в good faith без компенсации. Включает и медицинских, и немедицинских помощников после изменения 2009 года.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Standard of Care — детали</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Reasonable Person Standard</div>
+    <div class="concept-card-body">Гипотетический среднестатистический взрослый с обычным здравым смыслом. Объективный стандарт — личные недостатки (лень, вспыльчивость) не учитываются. Ответчик обязан быть «reasonable», даже если по характеру не такой.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Модификации стандарта</div>
+    <div class="concept-card-body"><strong>Дети:</strong> стандарт ребёнка того же возраста, опыта, интеллекта. Исключение: дети, занимающиеся <em>adult activities</em> (вождение машины, управление самолётом) — держатся adult standard.<br><strong>Physical disability:</strong> стандарт reasonable person с такой же инвалидностью.<br><strong>Mental disability:</strong> <em>не</em> учитывается — душевнобольной держится reasonable person standard. Логика: иначе слишком легко избегать ответственности.<br><strong>Emergency:</strong> стандарт reasonable person в emergency. Если emergency создана ответчиком — без модификации.<br><strong>Professionals:</strong> стандарт средней компетентности в их области, в том же community. Specialists — стандарт specialists.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Medical Malpractice — особенности</div>
+    <div class="concept-card-body">Традиционно — <strong>local standard</strong> (такая же community). Современно — <strong>national standard</strong> для specialists. Требуется expert testimony о стандарте, кроме очевидных случаев (res ipsa). <strong>Informed consent</strong>: врач обязан раскрыть material risks; тест — что разумный пациент посчитал бы важным (California и большинство) или что разумный врач раскрыл бы (меньшинство).</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Breach — как доказать</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Learned Hand Formula — US v. Carroll Towing (1947)</div>
+    <div class="concept-card-body">Формула судьи Hand для определения breach: <strong>B &lt; P × L</strong><br>• <strong>B</strong> — burden adequate precautions<br>• <strong>P</strong> — probability вреда<br>• <strong>L</strong> — likely severity of harm<br><br>Если burden меньше, чем вероятный вред, неразумно было не принимать меры. Неформальный, но влиятельный подход.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Negligence Per Se</div>
+    <div class="concept-card-body">Нарушение <strong>статута</strong> автоматически устанавливает breach, если:<br>1. Статут защищает класс лиц, к которому принадлежит истец<br>2. Статут защищает от <em>типа вреда</em>, который произошёл<br>3. Нарушение causation вреда<br><br>Классика: водитель проехал на красный свет (нарушение traffic statute, защищающего пассажиров других машин от столкновений). Breach доказан автоматически. Все ещё можно защищаться через отсутствие других элементов.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Res Ipsa Loquitur — «вещь говорит за себя»</div>
+    <div class="concept-card-body">Выводим negligence из самого факта происшествия. Три элемента:<br>1. Событие <strong>обычно не происходит</strong> без negligence<br>2. <strong>Исключительный контроль</strong> ответчика над instrumentality<br>3. <strong>Истец не способствовал</strong> happening<br><br>Классика: Byrne v. Boadle (1863) — бочка муки упала из окна склада. Бочки не падают сами. Склад контролирует окна. Истец просто шёл мимо. Res ipsa loquitur.<br><br>Эффект: presumption или permissible inference (зависит от jurisdiction). California — inference, не shifting burden.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Custom</div>
+    <div class="concept-card-body">Соблюдение <strong>industry custom</strong> — доказательство отсутствия breach, но не абсолют. Суд может признать, что <em>весь отрасль</em> действовала небрежно. T.J. Hooper (1932): буксир без радио погиб в шторме; отсутствие радио было custom — но custom был negligent.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Causation — две части</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Actual Cause (Cause in Fact)</div>
+    <div class="concept-card-body"><strong>But-for test:</strong> но если бы не действия ответчика, вред не наступил бы.<br><strong>Альтернатива: Substantial Factor Test</strong> — когда несколько причин действовали одновременно (два пожара сошлись и сожгли дом). Каждая причина, являвшаяся substantial factor, считается actual cause.<br><strong>Summers v. Tice (1948, Cal.):</strong> два охотника одновременно выстрелили в истца, только один попал, не установить кто. Суд переложил bburden of proof на ответчиков — каждый должен был доказать, что не он. Это alternative liability.<br><strong>Sindell v. Abbott Labs (1980, Cal.):</strong> DES. Не установить, какой из производителей виновен. Market share liability — каждый платит пропорционально своей доле рынка.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Proximate Cause (Legal Cause)</div>
+    <div class="concept-card-body">Тест <strong>foreseeability</strong>. Ответчик отвечает только за вред, который был предсказуемым следствием. <br><strong>Intervening causes:</strong> промежуточные события между actions defendant и harm. Foreseeable intervening — не разрывают цепь. Unforeseeable intervening (superseding) — разрывают.<br><strong>Eggshell skull rule:</strong> «бери истца таким, какой он есть». Неожиданная хрупкость истца не освобождает — отвечаешь за всю степень вреда, даже если обычный человек получил бы меньше. Принцип универсальный, применяется и к физическому, и к психическому вреду.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Damages в negligence</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Compensatory Damages</div>
+    <div class="concept-card-body"><strong>Special damages</strong> — экономические, подлежат точному расчёту: medical bills, lost wages, property damage.<br><strong>General damages</strong> — неэкономические, подлежат оценке jury: pain and suffering, loss of consortium, emotional distress.<br><strong>Future damages</strong> — можно взыскивать ожидаемые будущие потери, приведённые к present value.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Negligent Infliction of Emotional Distress (NIED)</div>
+    <div class="concept-card-body">Три теории recovery:<br><strong>1. Zone of Danger:</strong> истец был в физической опасности, испытал emotional distress. Большинство штатов.<br><strong>2. Impact Rule:</strong> требуется физический контакт (даже минимальный). Меньшинство.<br><strong>3. Dillon/Thing Test (California):</strong> bystander recovery. Dillon v. Legg (1968, Cal.) и уточнённый Thing v. La Chusa (1989, Cal.):<br>&nbsp;&nbsp;• Истец закрыт <strong>close relationship</strong> с пострадавшим (родственник)<br>&nbsp;&nbsp;• <strong>Contemporaneous observation</strong> события (не узнал потом)<br>&nbsp;&nbsp;• <strong>Serious emotional distress</strong> за пределы обычного<br><br>California — самый развитый подход к bystander NIED.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Collateral Source Rule</div>
+    <div class="concept-card-body">Compensation, полученная истцом от независимых источников (страховка, работодатель), <strong>не вычитается</strong> из damages. Логика: tortfeasor не должен извлекать выгоду из предусмотрительности истца. California частично модифицировала через MICRA (medical malpractice) и Prop 51.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Exam Traps</div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 1: «Duty to act»</div>
+    <div class="hbox-text">Нет duty помогать незнакомцу. Это одна из самых частых ловушек. Фабула описывает, как мимо шёл человек и не помог утопающему — <strong>нет negligence</strong>, если нет specific relationship, собственного создания опасности или voluntary undertaking.</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 2: Negligence per se не абсолютна</div>
+    <div class="hbox-text">Даже если доказан negligence per se — ответчик может победить, если нет causation или damages. Нарушение статута устанавливает breach, но не остальные элементы.</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 3: Proximate cause and superseding intervening</div>
+    <div class="hbox-text">Foreseeable criminal acts third parties (ограбление в плохо освещённом паркинге) <strong>не разрывают</strong> цепь. Unforeseeable (внезапный ураган, удар молнии) — superseding.</div>
+  </div>
 </div>`
       },
       {
@@ -2030,6 +2206,93 @@ const SUBJECTS = [
 <div class="hbox blue">
   <div class="hbox-label">Сравнение: California vs. other states</div>
   <div class="hbox-text">Калифорния применяет <strong>consumer expectation test</strong> для design defects: продукт дефектен, если опаснее, чем ожидает обычный потребитель. Альтернативный тест — <strong>risk-utility test</strong>: риски продукта перевешивают его пользу.</div>
+</div><div class="l-section">
+  <div class="l-section-label">Три категории strict liability</div>
+  <p class="l-text">Твой урок покрывает две: abnormally dangerous activities и products liability. Традиционно выделяют три категории:</p>
+  <div class="concept-card">
+    <div class="concept-card-title">1. Animals</div>
+    <div class="concept-card-body"><strong>Wild animals</strong> — владелец отвечает strictly за вред, причинённый dangerous propensities. Лев, тигр, медведь — всегда strict.<br><strong>Domestic animals</strong> — <em>one-bite rule</em>: владелец отвечает strictly, только если знал или должен был знать о dangerous propensity. Первая укус «бесплатный», если нет признаков агрессивности.<br><strong>Trespassing cattle</strong> — strict liability за вред, если скот забрёл на чужую землю. Исключение: fencing districts.<br><strong>California-specific:</strong> Cal. Civ. Code § 3342 устанавливает strict liability за dog bites — без one-bite rule. Владелец отвечает за первый укус, если жертва законно на property. Это отличие от большинства штатов.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">2. Abnormally Dangerous Activities</div>
+    <div class="concept-card-body">Restatement (Second) § 520 — шесть факторов:<br>1. Высокий риск вреда<br>2. Серьёзность вреда<br>3. Невозможность устранить риск reasonable care<br>4. Не common usage<br>5. Inappropriate to location<br>6. Ценность для community не превышает риск<br><br>Restatement (Third) упростил до двух: creates foreseeable и highly significant risk, not common usage.<br><br>Классические примеры: blasting, keeping wild animals, storing dangerous chemicals, fumigation, crop dusting.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">3. Products Liability</div>
+    <div class="concept-card-body">Purely American doctrine, возникла в California с Greenman (1963). Detail in next section.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Products Liability — четыре теории recovery</div>
+  <div class="hbox gold">
+    <div class="hbox-label">Истец может выбрать любую (или все)</div>
+    <div class="hbox-text"><strong>1. Negligence</strong> — стандартные 4 элемента. Против manufacturer, retailer, supplier. Retailer обычно not liable, если просто продавал без reason to know defect.<br><br><strong>2. Strict Products Liability (Restatement § 402A / Greenman)</strong> — без необходимости доказывать fault.<br><br><strong>3. Breach of Warranty</strong> — UCC § 2-314 (merchantability), § 2-315 (fitness particular purpose), § 2-313 (express). Privity requirements relaxed.<br><br><strong>4. Misrepresentation</strong> — fraud или innocent misrepresentation о material fact.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Strict Products Liability — элементы</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Prima facie case</div>
+    <div class="concept-card-body">1. <strong>Defendant — commercial seller</strong> of products. Включает manufacturer, distributor, retailer. Не одноразовый private seller.<br>2. <strong>Product was defective</strong> when left defendant's hands.<br>3. <strong>Defect was actual and proximate cause</strong> of injury.<br>4. <strong>Damages</strong> — physical harm to person or property.<br><br>Не требуется privity of contract. Bystander тоже может судиться.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Три вида дефектов</div>
+    <div class="concept-card-body"><strong>Manufacturing defect</strong> — единичный экземпляр отличается от дизайна. Один из тысячи автомобилей с бракованным тормозом. Тест прост: отличается ли от intended design.<br><br><strong>Design defect</strong> — сам дизайн опасен. Все экземпляры дефектны. Два теста:<br>• <strong>Consumer Expectation Test (California preferred):</strong> продукт более опасен, чем ожидал бы ordinary consumer. Barker v. Lull (1978, Cal.).<br>• <strong>Risk-Utility Test (Restatement Third):</strong> был ли reasonable alternative design, который уменьшил бы риск. California применяет оба теста в зависимости от сложности (Soule v. GM, 1994).<br><br><strong>Warning defect (failure to warn)</strong> — недостаточные инструкции или предупреждения. Тест: foreseeable risks, known or knowable на момент marketing. Learned intermediary doctrine в медицине: warning врачу, не пациенту.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Defenses к Strict Liability</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Misuse / Alteration</div>
+    <div class="concept-card-body">Если продукт использовался <strong>не по назначению и непредсказуемым образом</strong> — manufacturer не отвечает. Но <strong>foreseeable misuse</strong> должен быть предусмотрен. Если все используют табурет как лестницу — manufacturer должен это учесть.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Assumption of Risk</div>
+    <div class="concept-card-body">Истец знал о defect и сознательно воспользовался. Полный барьер в некоторых jurisdictions, фактор comparative в других. California — фактор comparative.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Comparative Fault</div>
+    <div class="concept-card-body">California применяет comparative fault даже к strict products liability (Daly v. General Motors, 1978). Большинство штатов следуют.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">State of the Art</div>
+    <div class="concept-card-body">Защита, что на момент выпуска продукт соответствовал lowest scientific knowledge. Доступна для design defects и failure to warn — обычно не для manufacturing. Анализ отражает момент выпуска, не времени травмы.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Warranty — параллельная теория</div>
+  <table class="comp-table">
+    <tr><th>Warranty</th><th class="ru">UCC</th><th>Содержание</th></tr>
+    <tr><td>Express</td><td class="ru">§ 2-313</td><td>Явное обещание, описание, образец</td></tr>
+    <tr><td>Implied Merchantability</td><td class="ru">§ 2-314</td><td>Fit for ordinary purposes. Только если продавец — merchant</td></tr>
+    <tr><td>Implied Fitness for Particular Purpose</td><td class="ru">§ 2-315</td><td>Продавец знает о particular purpose покупателя, покупатель полагается на экспертизу продавца</td></tr>
+  </table>
+  <div class="hbox blue">
+    <div class="hbox-label">Disclaimer возможен, но ограничен</div>
+    <div class="hbox-text">UCC разрешает disclaim implied warranties конкретными формулировками («as is», «with all faults»). НО California (через Magnuson-Moss и Song-Beverly Act) сильно ограничивает disclaimer в consumer transactions. В бизнес-между-бизнесом — свобода шире.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">California Song-Beverly Consumer Warranty Act</div>
+  <div class="hbox purple">
+    <div class="hbox-label">Cal. Civ. Code §§ 1790 et seq. — «California Lemon Law»</div>
+    <div class="hbox-text">Одно из самых про-потребительских законодательств в США. Применяется к consumer goods (включая cars):<br>• Implied warranty merchantability не может быть отменена в consumer sales<br>• «Lemon law» для автомобилей: manufacturer обязан repair или replace после reasonable number of attempts<br>• Attorney's fees — consumer может взыскать с manufacturer<br>• Civil penalty up to 2× actual damages при willful violation<br><br>Критическая тема на Cal Bar для consumer torts/contracts issues.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Exam Traps</div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 1: Scope of strict liability</div>
+    <div class="hbox-text">Strict liability применяется только к вреду, который <strong>рискованность вида деятельности</strong> делает вероятной. Если химзавод взорвался из-за негодного водопровода, но вред — моральное расстройство соседа из-за шума — strict не применяется. Рикошетный вред вне scope.</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 2: Retailer в negligence vs strict</div>
+    <div class="hbox-text">Retailer обычно <strong>не liable в negligence</strong> (просто продавал упакованный товар, не знал о дефекте). <strong>Но liable в strict</strong> — любой commercial seller в цепи. Это важное различие.</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 3: Services не products</div>
+    <div class="hbox-text">Strict products liability <strong>не применяется к services</strong>. Оказание медицинской услуги — negligence standard. Продажа крови — services (по статуту California). Гибриды: hair dye applied by stylist — в California суды делят (Newmark v. Gimbel's).</div>
+  </div>
 </div>`
       },
       {
@@ -2050,6 +2313,120 @@ const SUBJECTS = [
 <div class="hbox gold">
   <div class="hbox-label">Intent — специфика умысла в tort law</div>
   <div class="hbox-text">Умысел в tort law — это намерение совершить <strong>действие</strong>, а не причинить вред. При battery: достаточно намерения совершить контакт. Не нужно намеревалось причинить вред. Доктрина <strong>transferred intent</strong>: если хотел ударить А, но случайно ударил Б — умысел «переходит» к Б.</div>
+</div><div class="l-section">
+  <div class="l-section-label">Intent — ключевая концепция</div>
+  <div class="hbox gold">
+    <div class="hbox-label">Два пути установить intent</div>
+    <div class="hbox-text"><strong>1. Purpose</strong> — ответчик желал результата.<br><strong>2. Knowledge with substantial certainty</strong> — ответчик знал, что результат <em>практически наверняка</em> произойдёт.<br><br>Не нужно злого умысла. Не нужно желать вреда — достаточно желать <em>contact</em> или <em>apprehension</em>.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Transferred Intent — пять классических intentional torts</div>
+    <div class="concept-card-body">Если ответчик хотел совершить один из <strong>пяти</strong> intentional torts, но результат другой — intent переносится. Пять торов:<br>• Battery<br>• Assault<br>• False Imprisonment<br>• Trespass to Land<br>• Trespass to Chattels<br><br>Два вида переноса:<br><strong>Tort-to-tort:</strong> хотел напугать (assault), но ударил (battery) — intent переносится.<br><strong>Victim-to-victim:</strong> хотел ударить А, попал в Б — intent переносится.<br><br>Не применяется к: IIED, conversion, defamation.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Battery — детали</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Элементы</div>
+    <div class="concept-card-body">1. <strong>Intent</strong> cause contact or apprehension<br>2. <strong>Harmful or offensive contact</strong><br>3. <strong>With plaintiff's person</strong> (включает то, что к ней близко: одежда, предмет в руке, лошадь)<br>4. <strong>Causation</strong><br><br>Вред не обязателен — достаточно offensive contact. Плевок в лицо — battery. Тест offensiveness: оскорбил бы ordinary reasonable person. Не требуется actual consciousness of contact в момент (спящий человек может быть жертвой).</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Assault — детали</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Элементы</div>
+    <div class="concept-card-body">1. <strong>Intent</strong> cause apprehension immediate harmful/offensive contact<br>2. <strong>Reasonable apprehension</strong> by plaintiff<br>3. <strong>Of imminent</strong> contact<br>4. <strong>Causation</strong><br><br><strong>Imminent</strong> — критично. Угроза «я тебя ударю завтра» — не assault. Нужна немедленность.<br><strong>Apprehension ≠ fear.</strong> Даже боец MMA может быть «apprehensive» о contact, хотя не боится.<br><strong>Words alone</strong> обычно недостаточно. Нужен overt act или threatening gesture. Исключение: words + circumstances, делающие immediate threat.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">False Imprisonment — детали</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Элементы</div>
+    <div class="concept-card-body">1. <strong>Intent</strong> confine plaintiff<br>2. <strong>Actual confinement</strong> в bounded area<br>3. <strong>Plaintiff aware</strong> или harmed (если ребёнок / бессознательный)<br><br><strong>Методы confinement:</strong> physical barriers, physical force, threats, invalid assertion authority, keeping property (заложник чемодана). <strong>Не confinement:</strong> моральное давление, если есть reasonable means escape.<br><br><strong>Shopkeeper's Privilege (Merchant's Privilege):</strong> продавец может задержать подозреваемого в краже на <em>reasonable time</em> с <em>reasonable force</em> на premises по <em>reasonable suspicion</em>. California Penal Code § 490.5.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Intentional Infliction of Emotional Distress (IIED) — детали</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Элементы (Restatement § 46)</div>
+    <div class="concept-card-body">1. <strong>Extreme and outrageous conduct</strong> — «beyond all bounds of decency»<br>2. <strong>Intent or recklessness</strong><br>3. <strong>Causation</strong><br>4. <strong>Severe emotional distress</strong><br><br>Очень высокий порог: оскорбления, insults, грубость — обычно недостаточно. Типичные примеры IIED: false accusations of crime/prostitution, фальшивое сообщение о смерти родственника, длительная систематическая травля.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Vulnerable Plaintiffs</div>
+    <div class="concept-card-body">Если ответчик знает об особой уязвимости истца (беременность, известное психическое состояние) — порог outrageous может быть ниже. Особо защищаемые: children, elderly, pregnant women.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Third Party Recovery</div>
+    <div class="concept-card-body">IIED требует, чтобы outrageous conduct был direct at plaintiff. НО bystander может recover, если:<br>• Present at scene<br>• Close family member victim<br>• Defendant knew bystander present<br>Например: зверское убийство прямо на глазах ребёнка жертвы.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Property Torts</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Trespass to Land</div>
+    <div class="concept-card-body">Intent <strong>совершить физическое вторжение</strong> на чужую землю. Не требуется знания, что земля чужая. Не требуется actual harm. Intrusion может быть: личное присутствие, бросание объекта, запуск проекта (чужая собака, чужой beam). Даже минимальное вторжение actionable — nominal damages.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Trespass to Chattels</div>
+    <div class="concept-card-body">Intentional interference с чужим personal property, causing dispossession or damage. Менее серьёзное, чем conversion. Remedy — actual damages (цена ремонта, стоимость loss of use).</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Conversion</div>
+    <div class="concept-card-body">Существенное interference с чужим personal property, достаточное, чтобы заставить ответчика заплатить полную стоимость. Тест: серьёзность extent ответчика's dominion. Factor analysis — длительность, namerений, fraud, изменения состояния. Remedy: full value при time of conversion (forced sale), или return + damages.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Defamation — детально</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Элементы (common law)</div>
+    <div class="concept-card-body">1. <strong>Defamatory statement</strong> — unto harm reputation<br>2. <strong>Of and concerning plaintiff</strong><br>3. <strong>Published</strong> to third party<br>4. <strong>Damages</strong> (presumed в libel, required в slander)<br><br>Public figures must also prove:<br>5. <strong>Falsity</strong><br>6. <strong>Fault</strong> — actual malice for public figures, negligence for private plaintiffs on matters of public concern</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Libel vs Slander</div>
+    <div class="concept-card-body"><strong>Libel</strong> — written, broadcast, permanent form. Damages presumed.<br><strong>Slander</strong> — spoken, ephemeral. Damages must be proven, кроме slander per se:<br>• Crime of moral turpitude<br>• Loathsome disease (historically venereal)<br>• Business / profession incompetence<br>• Unchastity of a woman (anachronistic, но в books ещё)<br><br>Для slander per se damages presumed.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Constitutional Limitations — First Amendment</div>
+    <div class="concept-card-body"><strong>NY Times v. Sullivan (1964):</strong> public official must prove <em>actual malice</em> — знание о falsity или reckless disregard. <strong>Curtis Publishing v. Butts (1967):</strong> расширено на public figures. <strong>Gertz v. Welch (1974):</strong> private individual на matter of public concern — штат может устанавливать любой fault standard, но не strict liability; presumed/punitive damages требуют actual malice.<br><br>California имеет широкий <strong>anti-SLAPP statute</strong> (CCP § 425.16) — защита от frivolous defamation suits, направленных против public speech.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Privileges (defenses)</div>
+    <div class="concept-card-body"><strong>Absolute privilege</strong> — полная immunity:<br>• Judicial proceedings (witnesses, attorneys, judges)<br>• Legislative proceedings<br>• Executive officials в their duties<br>• Husband/wife communications<br><br><strong>Qualified privilege</strong> — может быть lost при malice:<br>• Communications between people with common interest (employers giving references)<br>• Fair reporting of public proceedings<br>• Fair comment on matters of public interest</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Invasion of Privacy — четыре torts</div>
+  <div class="concept-card">
+    <div class="concept-card-title">1. Appropriation of Name or Likeness</div>
+    <div class="concept-card-body">Commercial use чужого имени или image без permission. California: Cal. Civ. Code § 3344 (for living persons) + Cal. Civ. Code § 3344.1 (for deceased, Astaire Act) — одни из самых сильных в США. Включает «right of publicity».</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">2. Intrusion upon Seclusion</div>
+    <div class="concept-card-body">Intentional intrusion в personal affairs в manner highly offensive. Включает wiretapping, peeping, hacking. Не требуется publication. California Constitution Art. I § 1 усиливает это.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">3. Public Disclosure of Private Facts</div>
+    <div class="concept-card-body">Publication of private facts, highly offensive to reasonable person, not of legitimate public concern. Даже true facts. Напряжение с First Amendment — newsworthiness usually protects media.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">4. False Light</div>
+    <div class="concept-card-body">Publication ставит истца в ложное public light, highly offensive. Похоже на defamation, но не требуется reputation damage — только offensiveness. Некоторые штаты не признают (включают в defamation). California признаёт.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Exam Traps</div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 1: Intent в intentional torts — intent to act, not to harm</div>
+    <div class="hbox-text">Врач делает операцию без informed consent — намеренно сделал contact, даже если хотел помочь. Battery. Intent — к акту, не к вреду.</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 2: Practical joke defense не работает</div>
+    <div class="hbox-text">«Я только пошутил» — не защита. Если intended contact, knew or should have known он offensive — battery.</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 3: Conditional threats в assault</div>
+    <div class="hbox-text">«Если ты не уйдёшь, я тебя ударю» — обычно не assault (ты можешь избежать, уйдя). НО если ответчик не имеет права ставить условие («отдай кошелёк или ударю») — assault имеет место.</div>
+  </div>
 </div>`
       },
       {
@@ -2109,6 +2486,117 @@ const SUBJECTS = [
     <tr><td>8th</td><td class="ru">Запрет жестоких и необычных наказаний</td><td>★★★☆☆</td></tr>
     <tr><td>14th</td><td class="ru">Due process + equal protection (применяет BOR к штатам)</td><td>★★★★★</td></tr>
   </table>
+</div><div class="l-section">
+  <div class="l-section-label">Consent — детальный разбор</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Express vs Implied Consent</div>
+    <div class="concept-card-body"><strong>Express consent</strong> — словами или письменно.<br><strong>Implied-in-fact consent</strong> — поведение. Пассажир в метро consents to нормальные толчки. Пациент, подставляющий руку под укол — consents.<br><strong>Implied-in-law consent</strong> — emergency doctrine. Пациент без сознания — surgeon может действовать; consent подразумевается.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Когда consent недействительна</div>
+    <div class="concept-card-body"><strong>1. Duress / fraud</strong> — consent под принуждением или обманом не действительна.<br><strong>2. Mistake, known to defendant</strong> — врач знает, что пациент не понимает риски.<br><strong>3. Capacity</strong> — minors, intoxicated, mentally incapacitated могут не иметь capacity.<br><strong>4. Exceeding scope</strong> — consented к одной операции, хирург сделал другую — no consent к extra. Kennedy v. Parrott (1956) — surgeon нашёл проблему во время операции и починил. Court: implied consent в emergency.<br><strong>5. Illegal acts</strong> — majority: consent to illegal act not valid (вы не можете consent к prizefight в штате, где fighting illegal). Minority: consent valid.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Self-Defense — детали</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Требования для валидной самообороны</div>
+    <div class="concept-card-body">1. <strong>Reasonable belief</strong> of imminent threat — объективный тест. Даже если belief ошибочен, если reasonable — защита валидна.<br>2. <strong>Proportional force</strong> — сила должна соответствовать угрозе. Нельзя стрелять из дробовика за толчок.<br>3. <strong>Not aggressor</strong> — инициатор конфликта не может воспользоваться, пока не withdraw и сообщит об этом.<br><br><strong>Deadly force</strong> допустим только против угрозы death или serious bodily harm. Защита собственности — обычно не deadly force.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Duty to Retreat</div>
+    <div class="concept-card-body"><strong>Retreat rule (minority):</strong> duty retreat before using deadly force, если safe retreat возможен. Исключение: в своём доме (castle doctrine).<br><br><strong>Stand your ground (majority, includes California with nuances):</strong> нет duty retreat, если законно находишься. California — по common law не требует retreat (People v. Collins, 1961), Penal Code § 197 и presumption «castle doctrine» для дома.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Defense of Others</div>
+    <div class="concept-card-body">Можно защищать других на тех же условиях, что и себя. <strong>Majority:</strong> защитник «стоит в ботинках» защищаемого — если тот не имел права на self-defense, защитник тоже не защищён. <strong>Minority (Restatement view):</strong> reasonable mistake защитника — OK.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Defense of Property</div>
+    <div class="concept-card-body">Reasonable force — да. <strong>Deadly force — почти никогда.</strong> Classic case: Katko v. Briney (1971) — spring gun в заброшенном доме ранил trespasser. Court: нельзя использовать deadly force, которое не имел бы права использовать лично.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Necessity</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Public Necessity</div>
+    <div class="concept-card-body">Действия для защиты <strong>public interest</strong> от угрозы. Полная защита — никакой компенсации. Пример: разрушение здания, чтобы остановить распространение пожара. Surocco v. Geary (1853, Cal.) — mayor разрушил дом, чтобы сдержать пожар Сан-Франциско. No liability.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Private Necessity</div>
+    <div class="concept-card-body">Действия для защиты <strong>собственных или чужих частных интересов</strong>. <strong>Частичная защита:</strong> privilege to act, но должен компенсировать actual damages. Vincent v. Lake Erie (1910) — судно в шторм пришвартовалось к чужому пирсу. No trespass, но оплата за урон пирсу.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Contributory vs Comparative Negligence</div>
+  <div class="hbox red">
+    <div class="hbox-label">Contributory Negligence — traditional rule</div>
+    <div class="hbox-text">Любая negligence истца — <strong>полный барьер</strong> recovery. Даже 1% вины — нет взыскания. Сохранилось только в 4 штатах + D.C. (Alabama, Maryland, North Carolina, Virginia, D.C.). <strong>Last Clear Chance doctrine</strong> смягчает: если ответчик имел последний шанс избежать, barrier снимается.</div>
+  </div>
+  <div class="hbox blue">
+    <div class="hbox-label">Pure Comparative Negligence — California</div>
+    <div class="hbox-text">Li v. Yellow Cab (1975). Истец recovers, <strong>даже если на 99% виновен</strong>. Damages уменьшаются пропорционально. California — pure. Другие штаты: Alaska, Arizona, Florida, Louisiana, Mississippi, Missouri, NM, NY, Rhode Island, South Dakota, Washington.</div>
+  </div>
+  <div class="hbox gold">
+    <div class="hbox-label">Modified Comparative Negligence</div>
+    <div class="hbox-text">Истец recovers, <strong>только если его fault ≤ 50% (12 штатов) или &lt; 50% (21 штат)</strong>. Threshold states: 50% rule (Colorado, Georgia) — должна быть less than defendant; 51% rule (большинство) — can be equal but not more.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Assumption of Risk</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Express Assumption</div>
+    <div class="concept-card-body">Письменная или устная waiver. Типичный пример: liability waiver at ski resort, gym. Валидна, если: ясна, conspicuous, не противоречит public policy. California жёстко ограничивает: Tunkl v. Regents (1963) — шесть факторов для признания exculpatory agreement против public policy. Med care, public utilities — обычно нельзя exculpate.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Implied Assumption — primary vs secondary</div>
+    <div class="concept-card-body"><strong>Primary:</strong> defendant owed no duty, потому что истец добровольно участвовал в деятельности с inherent risk. Complete defense. Пример: удар пакая в бейсбольном матче. Knight v. Jewett (1992, Cal.) — в California primary assumption of risk выжил как отдельная доктрина, особенно для sports.<br><br><strong>Secondary:</strong> истец добровольно столкнулся с risk, создал by defendant's negligence. В California это <strong>слилось с comparative negligence</strong>. Уже не complete defense.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Statutes of Limitations и Immunities</div>
+  <div class="concept-card">
+    <div class="concept-card-title">SOL для torts в California</div>
+    <div class="concept-card-body">• <strong>Personal injury:</strong> 2 года (CCP § 335.1)<br>• <strong>Property damage:</strong> 3 года (CCP § 338)<br>• <strong>Defamation:</strong> 1 год (CCP § 340(c))<br>• <strong>Medical malpractice:</strong> 3 года от injury or 1 год от discovery (whichever earlier) (CCP § 340.5)<br>• <strong>Fraud:</strong> 3 года от discovery (CCP § 338(d))<br><br><strong>Discovery Rule:</strong> SOL runs с момента, когда истец знал или должен был знать about injury и cause.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Government Immunity — Tort Claims Act</div>
+    <div class="concept-card-body">Sovereign immunity волевая по умолчанию. <strong>California Tort Claims Act</strong> (Cal. Gov. Code § 810 et seq.) — waiver с ограничениями. Key: должен подать <em>administrative claim</em> within <strong>6 months</strong> of injury (personal injury, death) или 1 year (property). Если пропустили — claim barred. Это критично для любого иска против government entity в California.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Federal Tort Claims Act</div>
+    <div class="concept-card-body">FTCA waives federal immunity для negligent acts federal employees в scope of employment. Исключения: intentional torts (кроме law enforcement), discretionary functions. Administrative claim в agency within 2 years, suit within 6 months after denial.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Joint and Several Liability</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Classic rule</div>
+    <div class="concept-card-body">Если двое или более ответчиков responsible — каждый liable for 100% damages. Истец может recover от любого. Defendants then share damages among themselves через contribution.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">California Proposition 51 (1986) — Fair Responsibility Act</div>
+    <div class="concept-card-body">Критически важно для Cal Bar. Cal. Civ. Code § 1431.2:<br>• <strong>Economic damages:</strong> joint and several сохраняется<br>• <strong>Non-economic damages</strong> (pain and suffering): <strong>several only</strong> — каждый отвечает только за свою долю вины<br><br>Это модифицированный joint and several, уникальный для California. На эссе по Torts в California это постоянная тема.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Exam Traps</div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 1: Consent по сфере применения</div>
+    <div class="hbox-text">Боксёр consents to punches в голову. Не consents к нападению ножом. Scope of consent — по конкретной деятельности.</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 2: Self-defense — aggressor rule</div>
+    <div class="hbox-text">Initial aggressor не может использовать self-defense, пока не withdraw и communicated withdrawal. Есть исключение: если victim escalated — от punch к deadly force — первоначальный aggressor снова может защищаться против deadly force.</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 3: California comparative для strict liability</div>
+    <div class="hbox-text">California применяет comparative fault даже к strict products liability (Daly v. GM, 1978). Не intuitive — «strict liability» звучит как «no fault», но California всё равно distributes fault между parties.</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 4: Prop 51 в California</div>
+    <div class="hbox-text">На California Bar эссе по Torts: если есть multiple defendants и non-economic damages (pain and suffering) — обязательно упомянуть Prop 51 и several liability только на non-economic. Забыть = потерять баллы.</div>
+  </div>
 </div>`
       },
       {
