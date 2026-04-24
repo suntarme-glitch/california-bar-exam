@@ -1011,6 +1011,90 @@ const SUBJECTS = [
       <strong>Правильный ответ: A.</strong> По тесту predominant purpose суд смотрит на главную цель договора. Здесь $5,000 из $8,000 — оборудование (goods). Цель договора — получить товар с установкой, а не просто нанять специалиста. Поэтому применяется UCC Article 2. Если бы цена труда преобладала — применялось бы common law.
     </div>
   </div>
+</div><div class="l-section">
+  <div class="l-section-label">Историческая основа договорного права</div>
+  <p class="l-text">Современное американское договорное право выросло из трёх слоёв, каждый из которых оставил свой след в доктринах, которые тестируются на Bar Exam.</p>
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-year">XIII–XIV вв.</div>
+      <div class="tl-text"><strong>Writ of covenant и writ of debt.</strong> Ранние формы исков о нарушении обязательств. Требовали письменной формы за печатью. Отсюда растёт современный Statute of Frauds.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">XVI в.</div>
+      <div class="tl-text"><strong>Assumpsit (обещание).</strong> Новый иск, позволивший судить за нарушение устных обещаний. Фундамент современного общего договорного права.</div>
+    </div>
+    <div class="tl-item highlight">
+      <div class="tl-year">1677</div>
+      <div class="tl-text"><strong>Statute of Frauds.</strong> Английский парламент принял закон о требовании письменной формы для определённых договоров. Американские штаты (включая Калифорнию) приняли свои версии. До сих пор — краеугольный камень.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">1932</div>
+      <div class="tl-text"><strong>Restatement (First) of Contracts.</strong> Первая систематизация American Law Institute.</div>
+    </div>
+    <div class="tl-item highlight">
+      <div class="tl-year">1952</div>
+      <div class="tl-text"><strong>Uniform Commercial Code (UCC).</strong> Создан ALI и Uniform Law Commission. Цель — единообразие коммерческого права. Принят в том или ином виде всеми штатами. <strong>Калифорния приняла UCC в 1963 году</strong> (Cal. Com. Code).</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">1981</div>
+      <div class="tl-text"><strong>Restatement (Second) of Contracts.</strong> Обновлённая систематизация. Главный источник для Bar Exam по common law вопросам.</div>
+    </div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Классификация договоров — знать обязательно</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Bilateral vs Unilateral</div>
+    <div class="concept-card-body"><strong>Bilateral contract</strong> — обмен обещаниями («обещаю продать» vs «обещаю заплатить»). Большинство договоров. <strong>Unilateral contract</strong> — обещание в обмен на <em>действие</em>, а не на другое обещание. Классический пример: «кто найдёт мою собаку — получит $100». Акцепт — только через выполнение действия. На Bar Exam это важно для вопросов о моменте заключения договора и возможности отзыва.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Express vs Implied-in-fact vs Implied-in-law</div>
+    <div class="concept-card-body"><strong>Express</strong> — условия выражены словами (устно или письменно). <strong>Implied-in-fact</strong> — договор, который стороны молчаливо заключили через поведение (пришёл к парикмахеру, сел, подстригся — должен заплатить). <strong>Implied-in-law (quasi-contract)</strong> — не договор вовсе; <strong>создан судом</strong> по справедливости, чтобы избежать unjust enrichment. Основа — <em>quantum meruit</em>.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Void vs Voidable vs Unenforceable</div>
+    <div class="concept-card-body"><strong>Void</strong> — ничтожный с самого начала (договор об убийстве, под физическим принуждением). Не имеет силы ни для кого. <strong>Voidable</strong> — оспоримый одной из сторон (misrepresentation, mistake, несовершеннолетний). Одна сторона может подтвердить или расторгнуть. <strong>Unenforceable</strong> — действительный, но не подлежащий принудительному исполнению (нарушение Statute of Frauds, истечение statute of limitations).</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Когда применять UCC vs Common Law — практический алгоритм</div>
+  <div class="hbox gold">
+    <div class="hbox-label">Шаг 1: определи предмет договора</div>
+    <div class="hbox-text">Goods? → UCC Article 2.<br>Realty? → Common law.<br>Services? → Common law.<br>Intangibles (патенты, авторские права)? → Common law.<br>Employment? → Common law.</div>
+  </div>
+  <div class="hbox blue">
+    <div class="hbox-label">Шаг 2: goods — это что такое</div>
+    <div class="hbox-text">UCC § 2-105: movable things at the time of identification. <strong>Не goods:</strong> недвижимость, деньги как платёж, ценные бумаги, услуги, intellectual property.</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Шаг 3: смешанные договоры — Predominant Purpose Test</div>
+    <div class="hbox-text">Смотри на <strong>main thrust</strong> договора. Признаки: язык договора, сравнительная стоимость частей, бизнес продавца. Если товар — предоставляешь услугу по его установке → UCC. Если услуга — товар как побочный продукт → common law. <strong>Исключение:</strong> некоторые штаты применяют <em>gravamen test</em> — применяется UCC только к той части спора, которая касается товара.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Merchants — особая категория в UCC</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Кто такой merchant (UCC § 2-104)</div>
+    <div class="concept-card-body">Лицо, которое <strong>регулярно торгует товарами этого рода</strong> или держится как эксперт. Фермер, продающий яблоки на рынке — merchant. Профессор, продающий свою машину — не merchant по машинам. UCC применяет более строгие правила к merchants: firm offers, confirmation memos, implied warranty of merchantability, higher duty of good faith.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">California-specifics в Contracts</div>
+  <div class="hbox purple">
+    <div class="hbox-label">Cal. Civ. Code и собственная терминология</div>
+    <div class="hbox-text">Калифорния <strong>кодифицировала</strong> многое из общего договорного права в Cal. Civ. Code §§ 1549–1701. Это необычно для common law штата. Формулировки близки к Restatement, но отличия есть:<br>• Cal. Civ. Code § 1550 — перечисляет четыре элемента: capable parties, consent, lawful object, sufficient cause or consideration<br>• Cal. Civ. Code § 1605 — определение consideration<br>• Cal. Civ. Code § 1624 — California Statute of Frauds (отличается от общего)<br><br>Cal. Com. Code — калифорнийская версия UCC, в основе стандартная, но с модификациями.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Exam Traps</div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 1: «quasi-contract» не контракт</div>
+    <div class="hbox-text">Quasi-contract (implied-in-law) — это <strong>не договор</strong>. Это equitable remedy, созданное судом для предотвращения unjust enrichment. Не требует offer, acceptance, consideration. Не можно «нарушить» quasi-contract — можно только искать restitution.</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 2: CISG — не забывай о международном</div>
+    <div class="hbox-text">Convention on International Sale of Goods (CISG) применяется по умолчанию к международным договорам купли-продажи товаров между коммерсантами из стран-участниц. США — участник. Стороны могут <em>opt out</em>. Если фабула описывает международную сделку между компанией из Калифорнии и Японии — думай о CISG, не UCC.</div>
+  </div>
 </div>`
       },
       {
@@ -1040,6 +1124,89 @@ const SUBJECTS = [
     <tr><td>Прайс-листы</td><td class="ru">Invitation to negotiate — предложение к переговорам, не договор.</td></tr>
     <tr><td>«Я мог бы продать...»</td><td class="ru">Нет серьёзного намерения (intent) — только предварительный разговор.</td></tr>
   </table>
+</div><div class="l-section">
+  <div class="l-section-label">Прекращение оферты — семь способов</div>
+  <p class="l-text">Оферта не висит бесконечно. Есть семь способов её прекращения. Это база для половины вопросов по формированию договора.</p>
+  <div class="concept-card">
+    <div class="concept-card-title">1. Revocation (отзыв оферентом)</div>
+    <div class="concept-card-body">Оферент может отозвать оферту в любой момент <strong>до акцепта</strong>. Отзыв вступает в силу при <strong>получении</strong> акцептантом. <strong>Indirect revocation</strong> — акцептант узнаёт о несовместимых действиях оферента от надёжного источника (продал машину другому). Этого достаточно для прекращения оферты.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">2. Rejection (отклонение акцептантом)</div>
+    <div class="concept-card-body">Акцептант прямо отклоняет оферту → оферта прекращается. Нельзя потом «передумать».</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">3. Counteroffer</div>
+    <div class="concept-card-body">По common law mirror image rule: любое изменение условий = counteroffer = автоматическое прекращение исходной оферты. <strong>Важное различие:</strong> <em>inquiry</em> («Would you consider $4,500?») не прекращает оферту — это только вопрос.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">4. Lapse of time</div>
+    <div class="concept-card-body">Оферта истекает либо в указанный срок, либо через разумное время. Что «разумно» — зависит от предмета: оферта на покупку волатильных акций живёт минуты, оферта на покупку дома — недели.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">5. Death or incapacity of offeror</div>
+    <div class="concept-card-body">Смерть или недееспособность оферента <strong>автоматически</strong> прекращает оферту — даже если акцептант не знал. <strong>Исключение:</strong> option contracts переживают смерть.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">6. Destruction of subject matter</div>
+    <div class="concept-card-body">Если предмет оферты уничтожен без вины сторон — оферта прекращается.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">7. Supervening illegality</div>
+    <div class="concept-card-body">Если после оферты изменился закон и предмет стал незаконным — оферта прекращается.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Irrevocable Offers — четыре способа сделать оферту неотзывной</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Option Contract</div>
+    <div class="concept-card-body">Акцептант платит consideration за право держать оферту открытой на согласованный срок. Оферент <strong>не может</strong> отозвать до истечения срока, даже если передумает. Consideration может быть символической ($1).</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Firm Offer (UCC § 2-205)</div>
+    <div class="concept-card-body">Три условия: <strong>(1) merchant</strong>, (2) <strong>письменная оферта на продажу товаров</strong>, (3) <strong>заверение об удержании открытой</strong>. Тогда неотзывна <strong>без consideration</strong> на указанный срок или <strong>разумное время, но не более 3 месяцев</strong>. Только merchants. Только goods. Важнейшее отличие от common law.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Detrimental Reliance (Promissory Estoppel)</div>
+    <div class="concept-card-body">Если акцептант разумно и предвидимо положился на оферту и понёс ущерб — оферта может стать неотзывной. Классический пример: субподрядчик подаёт bid генподрядчику, генподрядчик использует его в своём bid владельцу. Если субподрядчик отзовёт bid, он будет estopped. Drennan v. Star Paving (1958, Cal.) — знаковое калифорнийское дело.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Unilateral Contract — начало исполнения</div>
+    <div class="concept-card-body">В unilateral contract акцепт происходит через исполнение. Когда акцептант <strong>начал</strong> исполнение (а не только готовится), оферент теряет право отзыва. Restatement (Second) § 45. Акцептант не обязан заканчивать, но оферта защищена.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Advertisements и предложения неопределённому кругу</div>
+  <div class="hbox blue">
+    <div class="hbox-label">Lefkowitz v. Great Minneapolis Surplus Store (1957)</div>
+    <div class="hbox-text">Классический кейс. Обычно реклама — лишь invitation to negotiate. <strong>Но</strong> если реклама настолько <strong>определённа</strong>, что не остаётся ничего для переговоров, — это оферта. Формулировка «1 fur coat, worth $139.50, for $1, first come first served» удовлетворяла: определены количество, цена, способ акцепта. Магазин не мог отказать первому пришедшему.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">UCC Gap-Filler Terms — что суд может восполнить</div>
+  <p class="l-text">По common law оферта должна быть определённой по всем существенным условиям. UCC мягче — даже если не всё согласовано, суд может восполнить:</p>
+  <table class="comp-table">
+    <tr><th>Условие</th><th class="ru">Gap-filler</th></tr>
+    <tr><td>Price (§ 2-305)</td><td class="ru">Reasonable price at time of delivery</td></tr>
+    <tr><td>Place of delivery (§ 2-308)</td><td class="ru">Seller's place of business</td></tr>
+    <tr><td>Time of delivery (§ 2-309)</td><td class="ru">Reasonable time</td></tr>
+    <tr><td>Time of payment (§ 2-310)</td><td class="ru">At time and place of delivery</td></tr>
+  </table>
+  <div class="hbox red">
+    <div class="hbox-label">Единственное условие, которое нельзя восполнить</div>
+    <div class="hbox-text"><strong>Quantity.</strong> Без количества нет договора по UCC. Исключения: requirements contracts («всё, что нужно покупателю») и output contracts («всё, что произведёт продавец»). Они действительны — количество определяется через good faith.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Exam Traps</div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 1: Auctions</div>
+    <div class="hbox-text"><strong>With reserve</strong> (по умолчанию): аукционист приглашает оферты, bids — это оферты, аукционист акцептует ударом молотка, может отозвать до удара. <strong>Without reserve</strong>: приглашение сделать bids — это уже оферта; высший bid автоматически акцептует, аукционист не может отозвать.</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 2: «Subject to» formulations</div>
+    <div class="hbox-text">«I offer $100,000 subject to financing» — это оферта или нет? По большинству подходов — да, оферта с условием. Но если «subject to my approval» — обычно не оферта, а только invitation.</div>
+  </div>
 </div>`
       },
       {
@@ -1078,6 +1245,79 @@ const SUBJECTS = [
       <strong>Правильный ответ: C.</strong> Обещание подарка не имеет consideration — племянник ничего не дал Павлу взамен, это gift promise. По традиционному contract law — не исполнимо. Однако доктрина <em>promissory estoppel</em> может прийти на помощь: если племянник разумно положился на обещание, Павел предвидел такое поведение, и несправедливость очевидна — суд может обязать Павла заплатить. Это exception to the consideration requirement.
     </div>
   </div>
+</div><div class="l-section">
+  <div class="l-section-label">Исторические корни и современное значение</div>
+  <p class="l-text">Consideration появилось в английском common law в XVI веке как способ ограничить круг исполнимых обещаний. Без consideration — только «naked promise» без юридической силы. В современном праве доктрина смягчается, но остаётся базой.</p>
+  <div class="hbox gold">
+    <div class="hbox-label">Тест на consideration (Restatement § 71)</div>
+    <div class="hbox-text"><strong>Bargained-for exchange.</strong> Два элемента:<br>1. <strong>Legal detriment</strong> — промиссор получает что-то, чего не был вправе требовать, или промиссии отказывается от того, что имел право делать.<br>2. <strong>Bargain</strong> — detriment был <em>индуцирован</em> обещанием и наоборот. Это ключевое: без «quid pro quo» — нет consideration.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Что НЕ является consideration</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Past consideration</div>
+    <div class="concept-card-body">Что-то, уже сделанное до обещания, не может быть consideration для этого обещания. «Ты спас мою жизнь вчера — я обещаю тебе $10 000» — не исполнимо. Исключение: moral obligation в узких случаях (промиссор ранее имел долг, который погашен по формальному основанию — банкротство, истечение срока давности).</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Gift promises</div>
+    <div class="concept-card-body">Обещание подарка — не договор. Даже если дарополучатель ожидает и планирует. Единственный путь — promissory estoppel, если есть разумная reliance.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Illusory promises</div>
+    <div class="concept-card-body">Обещание, которое не обязывает. «Я куплю у тебя товары, если захочу» — нет обязательства, нет consideration. Суды часто спасают такие договоры через <strong>implied good faith</strong> или через конструкцию requirements/output.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Pre-existing legal duty</div>
+    <div class="concept-card-body">Обещание сделать то, что уже обязан по закону или договору — не consideration. Полицейский не может получить награду за выполнение служебных обязанностей. Подрядчик не может потребовать больше за ту же работу (modification without consideration по common law).</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Pre-existing Duty Rule и UCC</div>
+  <div class="hbox red">
+    <div class="hbox-label">Common Law vs UCC — важнейшее различие</div>
+    <div class="hbox-text"><strong>Common law (services, real estate):</strong> модификация договора <strong>требует нового consideration</strong>. Подрядчик не может потребовать больше за ту же работу.<br><br><strong>UCC § 2-209 (goods):</strong> модификация <strong>НЕ требует нового consideration</strong>. Достаточно <strong>good faith</strong>. Это одно из самых тестируемых различий на Bar Exam.<br><br><strong>Модификация пошлинного правила (minority rule):</strong> по Restatement (Second) § 89, модификация common law договора может быть исполнима <strong>без нового consideration</strong>, если: (1) изменение обстоятельств не предвидено, (2) модификация справедлива и разумна. Калифорния этой позиции тяготеет.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Accord and Satisfaction</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Как урегулировать спорный долг</div>
+    <div class="concept-card-body"><strong>Accord</strong> — новое соглашение о замене исполнения. <strong>Satisfaction</strong> — фактическое исполнение по accord. Классический пример: должник шлёт чек «на $600 в полное удовлетворение долга в $1 000», кредитор обналичивает. Если долг был <strong>disputed</strong> (спорный) — accord and satisfaction исполнена, полный долг списан. Если долг был <strong>undisputed</strong> (бесспорный) — нет consideration, кредитор может требовать остаток.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Promissory Estoppel — главная замена consideration</div>
+  <div class="hbox purple">
+    <div class="hbox-label">Restatement (Second) § 90 — четыре элемента</div>
+    <div class="hbox-text">1. <strong>Promise</strong> — обещание, рассчитанное побудить к действию или воздержанию<br>2. <strong>Foreseeability</strong> — промиссор предвидел reliance<br>3. <strong>Actual reliance</strong> — промиссии действительно положился и изменил своё положение<br>4. <strong>Injustice</strong> — возможна только через исполнение обещания<br><br>Remedy может быть ограничен <strong>reliance damages</strong>, а не expectation damages. Суд избегает давать полную выгоду, если этого требует справедливость.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">California-specific: Drennan v. Star Paving (1958)</div>
+    <div class="concept-card-body">Знаковое дело Traynor J. Субподрядчик подал bid генподрядчику, тот использовал его в своём bid. Субподрядчик попытался отозвать — суд применил promissory estoppel. California — лидер в применении PE к предконтрактным обещаниям в строительных тендерах. Общий принцип распространился на всю страну.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Mutuality of Obligation</div>
+  <div class="hbox blue">
+    <div class="hbox-label">«Both sides must be bound, or neither is»</div>
+    <div class="hbox-text">Старая доктрина: если только одна сторона связана — нет договора. Современная тенденция — требовать только consideration, не формальной mutuality. Requirements и output contracts долгое время считались illusory, но теперь <strong>признаны действительными</strong>: UCC § 2-306 требует <em>good faith</em> при определении количества.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Exam Traps</div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 1: «Adequate consideration»</div>
+    <div class="hbox-text">Суд <strong>не проверяет размер</strong> consideration. $1 за Rolls-Royce — валидное consideration. Но: суд смотрит на <strong>sham consideration</strong> — если стороны написали «$1 paid», но ничего не было уплачено, многие суды отказывают в признании. Также явная непропорциональность — сигнал для unconscionability analysis.</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 2: «Peppercorn theory»</div>
+    <div class="hbox-text">Даже peppercorn (горошина перца) — валидное consideration, если действительно обменена. Но если стороны использовали peppercorn как маскировку подарка — суды не защищают.</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 3: Forbearance as consideration</div>
+    <div class="hbox-text">Воздержание от предъявления иска — валидное consideration, если иск был <strong>добросовестно считался имеющим основание</strong> (good faith belief в valid claim), даже если в итоге иск не имел шансов. Это важно для settlement agreements.</div>
+  </div>
 </div>`
       },
       {
@@ -1100,6 +1340,81 @@ const SUBJECTS = [
   <div class="hbox red">
     <div class="hbox-label">Исключения</div>
     <div class="hbox-text">Mailbox rule не применяется: когда оферент прямо указал, что акцепт действует с момента получения; опционные договоры; электронные коммуникации (как правило).</div>
+  </div>
+</div><div class="l-section">
+  <div class="l-section-label">UCC § 2-207 — Battle of the Forms</div>
+  <p class="l-text">Самое сложное и самое тестируемое правило в UCC. Реальные коммерческие сделки происходят через обмен формами: покупатель посылает purchase order, продавец — acknowledgment. Формы почти никогда не идентичны. Common law сказал бы «counteroffer, mirror image». UCC решил иначе.</p>
+  <div class="hbox gold">
+    <div class="hbox-label">UCC § 2-207(1) — акцепт, даже если условия отличаются</div>
+    <div class="hbox-text">«A definite and seasonable expression of acceptance... operates as an acceptance even though it states terms additional to or different from those offered». Исключение: если акцепт <strong>expressly conditional</strong> на согласие с новыми условиями — тогда это counteroffer.</div>
+  </div>
+  <div class="hbox blue">
+    <div class="hbox-label">UCC § 2-207(2) — судьба дополнительных условий</div>
+    <div class="hbox-text"><strong>Между non-merchants:</strong> новые условия — лишь предложения, не становятся частью договора без отдельного акцепта.<br><br><strong>Между merchants:</strong> новые условия <strong>становятся частью договора</strong>, если:<br>(a) оферта не ограничивала акцепт её условиями, <strong>и</strong><br>(b) новые условия не <em>materially alter</em> договор, <strong>и</strong><br>(c) оферент не возражает в разумный срок.</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">UCC § 2-207(3) — conduct establishing contract</div>
+    <div class="hbox-text">Если стороны повели себя так, что признали договор (отправили / получили / оплатили товар) — договор существует. Условия: те, что <strong>совпадают</strong> в двух формах + UCC gap-fillers. Различия — «knocked out» (взаимно уничтожены).</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Silence as Acceptance</div>
+  <p class="l-text">По общему правилу молчание — не акцепт. Но есть исключения:</p>
+  <div class="concept-card">
+    <div class="concept-card-title">Prior dealings</div>
+    <div class="concept-card-body">Если стороны ранее установили практику, что молчание означает акцепт.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Offeree retained benefit</div>
+    <div class="concept-card-body">Акцептант воспользовался услугами/товарами, имея возможность отказаться.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Offer invited silence</div>
+    <div class="concept-card-body">Оферент прямо сказал: «если не ответишь к пятнице — считаю акцептом», и акцептант молчал, <strong>имея намерение принять</strong>. Только если был такой интент.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Mailbox Rule — детали и исключения</div>
+  <div class="hbox blue">
+    <div class="hbox-label">Общее правило (Adams v. Lindsell, 1818)</div>
+    <div class="hbox-text">Акцепт вступает в силу в момент <strong>отправки</strong>, если использовано разумное средство связи. Это защищает акцептанта, который иначе никогда не мог бы быть уверен, что договор заключён.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Rejection, then Acceptance — не применяется mailbox rule</div>
+    <div class="concept-card-body">Если акцептант сначала отправил rejection, затем acceptance — тот из двух, кто пришёл первым, регулирует. Если оферент получил rejection первым и изменил позицию (продал другому) — нет договора, даже если acceptance был отправлен раньше (доктрина estoppel).</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Acceptance, then Rejection</div>
+    <div class="concept-card-body">Акцептант отправил acceptance, потом rejection. По mailbox rule договор заключён в момент отправки acceptance. Последующий rejection не расторгает, <strong>но</strong>: если оферент получил rejection и detrimentally изменил позицию — acceptant estopped enforcing.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Исключения из Mailbox Rule</div>
+    <div class="concept-card-body">Не применяется когда: (1) оферта прямо требует acceptance upon receipt; (2) option contracts — acceptance effective at receipt; (3) электронные коммуникации обычно treat as received when received; (4) если acceptance lost in mail — разные суды, но большинство: договор всё равно заключён в момент отправки.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Mode and Manner of Acceptance</div>
+  <div class="hbox gold">
+    <div class="hbox-label">UCC § 2-206 и Restatement § 30</div>
+    <div class="hbox-text">По общему правилу акцептант может принять <strong>любым разумным способом</strong>, если оферта не ограничивает. Оферта на покупку товаров (goods) может быть акцептована либо обещанием поставить, либо <strong>prompt shipment</strong>. <strong>Accommodation shipment</strong> (продавец отправляет non-conforming goods с уведомлением, что это accommodation) — не акцепт, а counteroffer. Без уведомления — акцепт и одновременное нарушение.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">California-specific: Click-Wrap и Browse-Wrap</div>
+  <div class="hbox purple">
+    <div class="hbox-label">Nguyen v. Barnes & Noble (9th Cir., 2014)</div>
+    <div class="hbox-text">Калифорния лидирует в интернет-контрактном праве. <strong>Click-wrap</strong> (пользователь явно кликает «I agree») — действительный акцепт. <strong>Browse-wrap</strong> (условия где-то в футере, пользователь «согласился» просто используя сайт) — обычно <strong>не акцепт</strong>, если нет conspicuous notice. Это важно для любого бизнеса, действующего через интернет в Калифорнии.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Exam Traps</div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 1: Unilateral vs Bilateral — как акцептуется</div>
+    <div class="hbox-text">Unilateral contract — акцепт через <strong>исполнение</strong>. Промиссии не обязан сообщать, что начал. Но после начала исполнения должен уведомить, если промиссор не может легко узнать. Bilateral — акцепт через обещание.</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 2: «Grumbling acceptance»</div>
+    <div class="hbox-text">«OK, I accept, but I really think $5,000 is too much» — это акцепт. Недовольство не делает акцепт counterofferом, если условия не меняются. Но «I accept if you agree to...» — уже conditional, counteroffer.</div>
   </div>
 </div>`
       },
@@ -1130,6 +1445,117 @@ const SUBJECTS = [
     <tr><td>Consequential damages</td><td class="ru">Убытки, ставшие следствием нарушения</td><td>Только если были foreseeable (предсказуемы)</td></tr>
     <tr><td>Liquidated damages</td><td class="ru">Заранее согласованная сумма</td><td>Действительна если разумна, не штраф</td></tr>
   </table>
+</div><div class="l-section">
+  <div class="l-section-label">UCC Perfect Tender Rule — уникальное правило для товаров</div>
+  <div class="hbox gold">
+    <div class="hbox-label">UCC § 2-601: goods tolerance</div>
+    <div class="hbox-text">По common law нужно <strong>material breach</strong> для отказа от договора. По UCC для одноразовых поставок — <strong>perfect tender rule</strong>: если товар или поставка хоть в чём-то не соответствуют — покупатель может полностью отказаться. Это огромное отличие. Но есть ограничения.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Seller's Right to Cure (UCC § 2-508)</div>
+    <div class="concept-card-body">Если срок поставки ещё не наступил — продавец может исправить несоответствие. Если срок прошёл — продавец имеет право исправить, только если разумно полагал, что товар будет приемлем.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Installment Contracts (UCC § 2-612)</div>
+    <div class="concept-card-body">Для контрактов с поэтапной поставкой perfect tender НЕ применяется. Покупатель может отказаться от <strong>конкретной</strong> партии только если non-conformity <em>substantially impairs</em> её ценность. От <strong>всего</strong> договора — только если non-conformity substantially impairs весь договор.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Material Breach — тест из Restatement § 241</div>
+  <p class="l-text">Пять факторов для определения материальности нарушения:</p>
+  <div class="hbox blue">
+    <div class="hbox-label">Критерии</div>
+    <div class="hbox-text">1. <strong>Extent of benefit deprivation</strong> — насколько пострадавшая сторона лишена ожидаемой выгоды.<br>2. <strong>Adequacy of compensation</strong> — может ли компенсация покрыть ущерб.<br>3. <strong>Forfeiture by breaching party</strong> — риск лишения нарушителя значительного вложенного.<br>4. <strong>Likelihood of cure</strong> — вероятность исправления.<br>5. <strong>Good faith</strong> — действовал ли нарушитель добросовестно.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Substantial Performance</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Jacob &amp; Youngs v. Kent (1921, Cardozo)</div>
+    <div class="concept-card-body">Строитель дома использовал трубы другой марки, но идентичного качества. Суд: это minor breach, substantial performance имела место. Владелец должен заплатить за исключением разницы в стоимости (diminution in value, не стоимости замены). Это классика. На Bar: substantial performance = не material breach = неисполняющая сторона обязана продолжать, но может получить damages за конкретный дефект.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Damages — детальная классификация</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Expectation Damages — базовая формула</div>
+    <div class="concept-card-body"><strong>Loss in value + other losses − costs avoided − loss avoided</strong><br><br>Для продавца товаров (когда покупатель breaches): price − market price at time of tender (если удерживает товар), или price − resale price (если продал).<br>Для покупателя: market price − contract price (cover), или market price at time of breach − contract price.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Consequential Damages — Hadley v. Baxendale (1854)</div>
+    <div class="concept-card-body">Возмещаются только <strong>foreseeable</strong> убытки. Тест — две категории: (1) arising naturally from breach, (2) специальные, если известны сторонам на момент заключения. Упущенная прибыль мельника из-за задержки поставки детали — не возмещалась, потому что доставщик не знал, что вся мельница стоит из-за этой детали.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Incidental Damages</div>
+    <div class="concept-card-body">Расходы пострадавшей стороны в связи с нарушением: хранение отвергнутых товаров, поиск замещающего продавца, транспортировка. Почти всегда возмещаются.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Reliance Damages</div>
+    <div class="concept-card-body">Альтернатива expectation, если expectation невозможно рассчитать (speculative profits). Возмещаются расходы, понесённые в расчёте на договор. Цель — восстановить положение до заключения договора.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Restitution</div>
+    <div class="concept-card-body">Возвращение того, что нарушитель получил по договору. Применяется при расторжении (rescission), а также доступна stranger party (non-breaching) как альтернатива damages.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Duty to Mitigate — обязанность уменьшить убытки</div>
+  <div class="hbox red">
+    <div class="hbox-label">Не формально «обязанность», а ограничение</div>
+    <div class="hbox-text">Пострадавшая сторона не может взыскать убытки, <strong>которые разумно могла избежать</strong>. Это не duty в техническом смысле — никто не может заставить её mitigate. Но если не mitigated — damages уменьшаются на сумму, которую можно было избежать. <strong>Разумные</strong> усилия — стандарт. Для работника: искать сравнимую работу в той же географии. Parker v. Twentieth Century-Fox (1970, Cal.) — Ширли Маклейн не обязана была принимать «Big Country, Big Man» вместо «Bloomer Girl».</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Equitable Remedies</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Specific Performance</div>
+    <div class="concept-card-body">Суд приказывает нарушителю исполнить договор. Доступно только когда <strong>legal remedy (damages) inadequate</strong>. Обычно присуждается для:<br>• <strong>Real estate</strong> — каждый участок уникален, SP by default<br>• <strong>Unique goods</strong> — антиквариат, предметы искусства<br>• <strong>Output/requirements contracts</strong> в UCC<br><strong>Не доступно</strong>: personal service contracts (13th Amendment, нельзя принуждать к работе). Вместо этого — injunction against working for competitor.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Injunction</div>
+    <div class="concept-card-body">Приказ не делать что-то. Классический пример: employee non-compete. Lumley v. Wagner (1852) — певица обязалась петь в одном театре, подписала с другим; суд не мог заставить петь, но запретил петь в другом месте.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Reformation</div>
+    <div class="concept-card-body">Исправление документа, если он не отражает истинного соглашения сторон (mutual mistake в written terms, scrivener's error).</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Rescission</div>
+    <div class="concept-card-body">Расторжение договора и возврат сторон в исходное положение. Доступно при misrepresentation, mistake, duress, undue influence.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Anticipatory Repudiation — детали</div>
+  <div class="hbox purple">
+    <div class="hbox-label">Hochster v. De La Tour (1853) и современное правило</div>
+    <div class="hbox-text">Если одна сторона <strong>прямо и недвусмысленно</strong> заявляет, что не будет исполнять — пострадавшая сторона имеет четыре опции:<br>1. Сразу предъявить иск<br>2. Ждать performance date и тогда предъявить иск<br>3. Расторгнуть договор<br>4. Заставить repudiating party <strong>retract</strong> через уведомление<br><br><strong>Retraction</strong> возможна, если пострадавшая сторона ещё не положилась на repudiation и не уведомила о расторжении.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Prospective Inability (UCC § 2-609)</div>
+    <div class="concept-card-body">Если одна сторона имеет обоснованные сомнения в способности другой исполнить — может потребовать <strong>adequate assurance of performance</strong> в письменной форме. Если assurance не получена в разумный срок (не более 30 дней по UCC) — это рассматривается как repudiation.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Liquidated Damages — когда действительны</div>
+  <div class="hbox gold">
+    <div class="hbox-label">Два условия действительности</div>
+    <div class="hbox-text">1. На момент заключения договора <strong>фактические убытки было бы трудно оценить</strong>.<br>2. Согласованная сумма была <strong>разумной оценкой ожидаемого вреда</strong>.<br><br>Если сумма чрезмерна относительно ожидаемого вреда — это <strong>penalty</strong>, неисполнимо. Современная тенденция: смотреть и на expected, и на actual damages (ranging of reasonableness).</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">California-specific: Cal. Civ. Code § 1671</div>
+    <div class="concept-card-body">Калифорния переворачивает презумпцию: LD clauses <strong>presumed valid</strong> в негражданских (commercial) договорах. Оспаривающая сторона должна доказать, что они unreasonable. В потребительских и жилищных договорах — обратная презумпция, более строгий подход.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Exam Traps</div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 1: Punitive damages в contracts</div>
+    <div class="hbox-text"><strong>Не доступны</strong> за чистое нарушение контракта. Исключение: если нарушение также является tort (fraud, tortious interference). Это частая ловушка: истец пытается получить punitives через contract claim — не работает.</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 2: Mental distress damages</div>
+    <div class="hbox-text">Как правило, не присуждаются за contract breach. Исключения: (1) контракты, где mental distress является natural consequence (контракт на похороны, доставка telegram о смерти), (2) если нарушение также torts (IIED).</div>
+  </div>
 </div>`
       },
       {
@@ -1160,6 +1586,98 @@ const SUBJECTS = [
     <div class="concept-card-title">Promissory Estoppel</div>
     <div class="concept-card-body">Если сторона разумно положилась на обещание, суд может отказаться применять Statute of Frauds во избежание несправедливости.</div>
   </div>
+</div><div class="l-section">
+  <div class="l-section-label">Происхождение и логика</div>
+  <p class="l-text">Statute of Frauds — английский закон 1677 года «An Act for the Prevention of Frauds and Perjuries». Цель была предотвратить ложные иски о несуществующих устных договорах. В XVII веке стороны не могли давать показания в своём деле — легко было подделать показания свидетелей об устных обещаниях. Закон переживёт все эти процессуальные причины и будет жив до сих пор.</p>
+</div>
+<div class="l-section">
+  <div class="l-section-label">California Statute of Frauds — Cal. Civ. Code § 1624</div>
+  <div class="hbox gold">
+    <div class="hbox-label">Калифорнийская версия — проверка обязательна</div>
+    <div class="hbox-text">Cal. Civ. Code § 1624(a) требует письменной формы для:<br>(1) Контракты, не исполнимые в течение года<br>(2) Особые обещания отвечать за долг другого (suretyship)<br>(3) Соглашения в связи с браком (кроме mutual promises to marry)<br>(4) Leases на более 1 года<br>(5) Контракты о продаже недвижимости или на долю в недвижимости<br>(6) Некоторые агентские договоры — покупка/продажа недвижимости<br>(7) Контракты на услуги, не исполнимые в течение одной жизни (!)<br>(8) Контракты на loans свыше $100,000 для бизнеса, кроме loan от финансового учреждения<br><br><strong>В California нет обязательной письменной формы для договоров под $500</strong> — это UCC § 2-201 применяется независимо к продаже товаров.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Детали каждой категории MY LEGS</div>
+  <div class="concept-card">
+    <div class="concept-card-title">M — Marriage</div>
+    <div class="concept-card-body">Контракты, заключаемые в обмен на обещание вступить в брак. <strong>Классический пример:</strong> prenuptial agreements, обещание подарка после брака. <strong>Не попадают:</strong> сами mutual promises to marry (обещание пожениться друг другу) — это не Statute of Frauds.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Y — One Year Clause — самая тестируемая</div>
+    <div class="concept-card-body">Контракт, который <strong>не может быть исполнен в течение года</strong> с момента заключения. Тест: <em>impossibility of performance within a year</em>. Если есть хоть малейшая возможность исполнения в год — не попадает под SOF. Двухлетний employment contract — попадает. Employment «for life» — НЕ попадает (может закончиться смертью до года). «Employment until X dies» — НЕ попадает по той же логике.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">L — Land (contracts involving real estate)</div>
+    <div class="concept-card-body">Продажа, ипотека, сервитуты, leases свыше 1 года. <strong>Не попадают:</strong> short-term leases (до года), license (не interest in land), contract to build on land (это services).</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">E — Executor</div>
+    <div class="concept-card-body">Обещание исполнителя завещания <strong>личной ответственностью</strong> за долги наследства. Если просто обещает заплатить из наследства — не SOF. Если обязуется своими деньгами — SOF.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">G — Goods $500+ (UCC § 2-201)</div>
+    <div class="concept-card-body">Продажа товаров на <strong>$500 и более</strong> (в некоторых новых версиях UCC — $5,000, но большинство штатов сохранили $500, включая California). Письменная форма требуется от <strong>party to be charged</strong> (стороны, против которой предъявляют иск).</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">S — Suretyship</div>
+    <div class="concept-card-body">Обещание ответить за долг <strong>другого</strong>. Ключ — обещание должно быть <em>collateral</em> (в дополнение к основному долгу), а не <em>primary</em>. <strong>Main purpose rule:</strong> если обещание дано ради собственной экономической выгоды обещающего — НЕ требует письменной формы.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Что должно содержать «writing» под SOF</div>
+  <div class="hbox blue">
+    <div class="hbox-label">Minimum requirements</div>
+    <div class="hbox-text">• Identity of parties<br>• Subject matter<br>• Material terms (quantity для UCC)<br>• <strong>Signature of party to be charged</strong> (подпись стороны, против которой предъявлен иск)<br><br>«Writing» может быть: email, text message, несколько соединённых документов, даже заметка на салфетке. «Signature» — любой знак, идентифицирующий подписавшего (инициалы, typed name в email). Electronic signatures — действительны (E-SIGN Act 2000, UETA).</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">UCC § 2-201 — специальные правила для goods</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Merchant's Confirmation Memo — § 2-201(2)</div>
+    <div class="concept-card-body">Между merchants: если одна сторона шлёт <strong>письменное подтверждение</strong> устного соглашения, и другая merchant-сторона не возражает в <strong>10 дней</strong> — SOF удовлетворён <strong>даже против непринявшей стороны</strong>. Это уникальное исключение, отсутствующее в common law.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Specially Manufactured Goods — § 2-201(3)(a)</div>
+    <div class="concept-card-body">Если товары изготовлены специально для покупателя и не могут быть перепроданы в ходе обычного бизнеса продавца, <strong>продавец начал их производство</strong> — SOF не применяется.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Admission in Court — § 2-201(3)(b)</div>
+    <div class="concept-card-body">Если сторона в judicial proceedings (pleading, testimony) <strong>признаёт</strong> наличие договора — SOF неприменим. Признание заменяет письменную форму.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Part Performance — § 2-201(3)(c)</div>
+    <div class="concept-card-body">Если товар <strong>уплачен и принят</strong> или <strong>получен и принят</strong> — договор исполним в той мере, в какой исполнен. Это узко: только to the extent performed.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Исключения для real estate — Part Performance Doctrine</div>
+  <div class="hbox purple">
+    <div class="hbox-label">Equitable exception для land sales</div>
+    <div class="hbox-text">Устный контракт о продаже земли может быть исполнен в equity, если покупатель совершил комбинацию:<br>• <strong>Paid purchase price</strong> (частично или полностью)<br>• <strong>Took possession</strong> of the property<br>• <strong>Made substantial improvements</strong><br><br>Обычно требуются <strong>2 из 3</strong> действий. California применяет эту доктрину, но консервативно.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Promissory Estoppel как bypass</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Когда суд игнорирует SOF</div>
+    <div class="concept-card-body">Если non-enforcement устного договора создаст <strong>injustice</strong>, и сторона разумно положилась — суд может применить promissory estoppel и исполнить устный договор вопреки SOF. Monarco v. Lo Greco (1950, Cal.) — лидирующий California case в применении PE для обхода SOF. Но применяется с осторожностью.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Exam Traps</div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 1: Possibility of performance within a year</div>
+    <div class="hbox-text">Тест — <strong>possibility</strong>, не вероятность. «Employment for 5 years» — SOF. «Employment for life» — НЕ SOF, потому что может закончиться смертью до года. «Employment for 2 years unless terminated earlier» — <strong>всё равно</strong> SOF по большинству juristictions, потому что by its terms требует 2 года полного исполнения.</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 2: Full performance</div>
+    <div class="hbox-text">Если ОДНА сторона <strong>полностью</strong> исполнила — SOF не препятствует взысканию с другой. Если обе исполнили — SOF уже не важен. SOF защищает только от <strong>исполнения</strong> договора, не от взыскания реально отданного.</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 3: Modification</div>
+    <div class="hbox-text">Модификация договора, который попадает под SOF, тоже должна быть в письменной форме, если модифицированный договор попадает под SOF. Например: письменный $400 goods contract модифицируется устно до $600 — модификация неисполнима. Но: устная модификация $600 → $400 goods contract — исполнима.</div>
+  </div>
 </div>`
       },
       {
@@ -1182,6 +1700,121 @@ const SUBJECTS = [
   <div class="concept-card">
     <div class="concept-card-title">Mutual Mistake <span class="concept-card-en">Взаимное заблуждение</span></div>
     <div class="concept-card-body">Обе стороны заблуждались в существенном факте на момент заключения. Делает договор voidable. Если заблуждалась только одна сторона (unilateral mistake) — как правило, договор действителен, если только другая сторона не знала о заблуждении.</div>
+  </div>
+</div><div class="l-section">
+  <div class="l-section-label">Capacity Defenses — кто не может заключать договор</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Minors (Infants) — лица до 18</div>
+    <div class="concept-card-body">Несовершеннолетний может <strong>disaffirm</strong> (отказаться от) большинства договоров до 18 лет или в разумный срок после. Договор не void, а <strong>voidable</strong> на выбор несовершеннолетнего. Исключения: <strong>necessaries</strong> (еда, одежда, медицинская помощь) — несовершеннолетний обязан заплатить reasonable value. California: Family Code § 6710 — до 18 disaffirmable, contracts for necessaries обязательны.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Mental Incapacity</div>
+    <div class="concept-card-body">Два теста: (1) <strong>Cognitive test</strong> — неспособность понять природу и последствия сделки; (2) <strong>Volitional test</strong> (принят меньшинством штатов, включая California) — даже при понимании неспособность контролировать поведение из-за ментального состояния, и другая сторона знала об этом. Voidable, не void.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Intoxication</div>
+    <div class="concept-card-body">Опьянение делает договор voidable, только если: (1) другая сторона знала об опьянении, (2) опьянение лишило способности понимать сделку. Добровольное опьянение без знания другой стороны обычно не спасает.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Misrepresentation — детально</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Fraudulent Misrepresentation — элементы</div>
+    <div class="concept-card-body">1. <strong>Material misrepresentation</strong> (существенное искажение) of fact<br>2. <strong>Scienter</strong> — знание о ложности или reckless disregard<br>3. <strong>Intent to induce reliance</strong><br>4. <strong>Justifiable reliance</strong> другой стороны<br>5. <strong>Damages</strong> — понесённый ущерб<br><br>Права пострадавшего: <strong>rescission</strong> (расторжение) + <strong>tort damages</strong> (включая punitive). Можно выбрать одно.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Negligent Misrepresentation</div>
+    <div class="concept-card-body">Те же элементы, кроме scienter — достаточно negligence в проверке правдивости. California — один из самых строгих штатов по negligent misrepresentation (Bily v. Arthur Young, 1992). Remedy: только rescission, обычно не damages.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Innocent Misrepresentation</div>
+    <div class="concept-card-body">Без знания и без negligence. Только equitable rescission, если ошибка material.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Concealment и Non-Disclosure</div>
+    <div class="concept-card-body"><strong>Active concealment</strong> (активное сокрытие) — всегда actionable, как misrepresentation. <strong>Silence</strong> — обычно не actionable, кроме случаев:<br>• Fiduciary relationship<br>• Partial disclosure создаёт ложное впечатление<br>• Latent material defect, о котором продавец знает (особенно в real estate)<br>• Особый статутный дисклозер (California Civil Code § 1102 — Transfer Disclosure Statement for real estate)</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Duress — виды принуждения</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Physical Duress</div>
+    <div class="concept-card-body">Договор под физической угрозой или силой — <strong>void</strong> (ничтожен), не просто voidable. Это исключение: обычно defenses делают договор voidable.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Economic Duress</div>
+    <div class="concept-card-body">Три элемента: (1) <strong>improper threat</strong> (неправомерная угроза — не обычная жёсткая переговорная позиция), (2) <strong>no reasonable alternative</strong>, (3) threat вызвала согласие. Делает voidable. Классический пример: contractor в середине проекта требует больше денег под угрозой остановить работу, а замена нереальна — economic duress.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Undue Influence</div>
+    <div class="concept-card-body">«Мягкое» принуждение в контексте confidential relationship. Семь факторов из Odorizzi v. Bloomfield School District (1966, Cal.) — классический California case:<br>1. Discussion в unusual time<br>2. Unusual place<br>3. Insistent demand<br>4. Extreme emphasis on urgency<br>5. Multiple persuaders<br>6. Absence of third-party advisors<br>7. No time to consult<br><br>Если 2-3 из этих факторов присутствуют в контексте power disparity — undue influence.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Mistake — mutual vs unilateral</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Mutual Mistake — Sherwood v. Walker (1887)</div>
+    <div class="concept-card-body">Обе стороны ошибаются о <strong>basic assumption</strong> договора. Ошибка имеет material effect на exchange. Пострадавшая сторона не несла риск ошибки. Классический кейс: корова «Rose of Aberlone» продана как бесплодная (для мяса), оказалась беременной. Suit for rescission — удовлетворён.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Unilateral Mistake</div>
+    <div class="concept-card-body">Традиционно не defense. Современно — три возможных ситуации:<br>1. Другая сторона <strong>знала или должна была знать</strong> об ошибке → voidable<br>2. Ошибка <strong>palpable</strong> (очевидна) → voidable<br>3. Ошибка такова, что исполнение будет <strong>unconscionable</strong> → voidable<br><br>Классика: clerical error in bid — contractor отправил заниженное предложение из-за арифметической ошибки. Владелец знал об ошибке — bid можно расторгнуть.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Unconscionability — дуалистический тест</div>
+  <div class="hbox gold">
+    <div class="hbox-label">UCC § 2-302 и Restatement § 208</div>
+    <div class="hbox-text">Суд может отказаться исполнять <strong>unconscionable</strong> договор или clause. Нужны оба элемента (в sliding scale):<br><br><strong>Procedural unconscionability</strong> — дефекты процесса заключения:<br>• Oppression: неравенство переговорной силы, «take it or leave it»<br>• Surprise: скрытые условия, мелкий шрифт, непонятный язык<br><br><strong>Substantive unconscionability</strong> — несправедливые условия:<br>• Exorbitant price<br>• One-sided clauses (чрезмерные limitations of liability)<br>• Arbitration clauses, лишающие прав эффективно<br><br>California применяет sliding scale: чем больше procedural, тем меньше нужно substantive, и наоборот.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Armendariz v. Foundation Health (2000, Cal.)</div>
+    <div class="concept-card-body">Знаковое California-дело. Employer's mandatory arbitration clause признана unconscionable: procedural (adhesion contract для сотрудника), substantive (лимитировала remedies, требовала confidentiality, не давала full discovery). California — один из самых активных штатов в применении unconscionability к arbitration agreements.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Illegality — договоры, противоречащие закону</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Void vs Voidable</div>
+    <div class="concept-card-body">Договоры о совершении преступления — void. Договоры, нарушающие регуляторные нормы — часто voidable. Договоры в restraint of trade (антиконкурентные) — по common law unenforceable; по modern law — тест reasonableness.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Public Policy</div>
+    <div class="concept-card-body">Даже если не противоречит конкретному закону, договор может быть неисполним как против public policy. Примеры: exculpatory clauses (снятие с себя ответственности за intentional torts), covenants not to compete слишком широкие.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">California-specific: Business &amp; Professions Code § 16600</div>
+    <div class="concept-card-body"><strong>California принципиально отличается</strong>: запрещает почти все non-compete clauses в employment. «Every contract by which anyone is restrained from engaging in a lawful profession, trade, or business is to that extent void». Исключения: sale of business, dissolution of partnership. Это делает California уникальным — non-competes, валидные в Нью-Йорке или Техасе, в California неисполнимы.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Impossibility, Impracticability, Frustration</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Impossibility of Performance</div>
+    <div class="concept-card-body">Performance стало буквально невозможным после заключения. Три классические ситуации:<br>• Смерть или недееспособность для personal service contracts<br>• Уничтожение subject matter (Taylor v. Caldwell, 1863 — сгорел мюзик-холл)<br>• Изменение закона, делающее performance нелегальным</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Commercial Impracticability (UCC § 2-615)</div>
+    <div class="concept-card-body">Смягчённый стандарт: performance стало <strong>extremely and unreasonably difficult</strong> или дорогостоящим из-за события, отсутствие которого было basic assumption. Классика: закрытие Суэцкого канала. Higher costs сами по себе — не impracticability, только extreme changes.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Frustration of Purpose — Krell v. Henry (1903)</div>
+    <div class="concept-card-body">Performance возможно, но его <strong>цель</strong> уничтожена. Классический кейс: аренда комнаты для наблюдения за коронационной процессией короля Эдуарда VII; король заболел, процессию отменили. Комнату сдать можно, но смысла нет. Договор расторгается.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Exam Traps</div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 1: Void vs Voidable</div>
+    <div class="hbox-text">Void contract — нет договора вообще, ни одна сторона не может его исполнить. Voidable — сторона, защищённая правилом, может выбрать: подтвердить или расторгнуть. Физическое duress, illegality — void. Misrepresentation, minor's contract, mutual mistake — voidable.</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 2: Fact vs Opinion в misrepresentation</div>
+    <div class="hbox-text">Misrepresentation of <strong>opinion</strong> обычно не actionable — «best car on the market», «great investment». Исключение: опинион эксперта (fiduciary), или opinion, подразумевающий fact. Puffery (хвастовство продавца) — не misrepresentation.</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 3: Frustration vs Impossibility</div>
+    <div class="hbox-text">Impossibility — не могу исполнить. Frustration — могу, но нет смысла. В Krell v. Henry помещение существовало, аренда возможна — но процессия отменена. Это frustration, не impossibility.</div>
   </div>
 </div>`
       },
@@ -1237,6 +1870,107 @@ const SUBJECTS = [
     <tr><td>Вина</td><td class="ru">Презумпция вины причинителя (ст. 1064)</td><td>Истец доказывает каждый элемент</td></tr>
     <tr><td>Без вины</td><td class="ru">Ст. 1079 — источник повышенной опасности</td><td>Strict liability — шире по охвату</td></tr>
   </table>
+</div><div class="l-section">
+  <div class="l-section-label">Historical context — privity of contract</div>
+  <p class="l-text">По старому английскому правилу третьи лица не могли ни получать права, ни нести обязанности по чужому договору — <span class="l-term">privity of contract</span>. Современное американское право сохранило эту доктрину, но с важными исключениями, которые позволяют бенефициарам и правопреемникам действовать.</p>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Third Party Beneficiaries — детальная классификация</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Intended Beneficiary — тест Restatement § 302</div>
+    <div class="concept-card-body">Третье лицо является intended beneficiary, если:<br>(a) performance promise удовлетворит долг промиссии перед третьим лицом, ИЛИ<br>(b) обстоятельства показывают, что промиссии intended to give третьему лицу выгоду performance<br><br>Только intended beneficiaries имеют право на иск.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Creditor Beneficiary</div>
+    <div class="concept-card-body">Подвид intended beneficiary. Промиссии уже имеет долг перед третьим лицом; договор с промиссором погасит этот долг. Пример: Иван должен Петру $1000. Иван заключает договор с Сергеем: Сергей заплатит Петру $1000 за что-то. Пётр — creditor beneficiary; может требовать с Сергея.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Donee Beneficiary</div>
+    <div class="concept-card-body">Подвид intended beneficiary. Промиссии хочет <strong>одарить</strong> третье лицо через договор с промиссором. Классический пример: страхователь делает страховой полис с beneficiary своей женой. Жена — donee beneficiary полиса.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Incidental Beneficiary</div>
+    <div class="concept-card-body">Случайно получает выгоду от договора, но стороны не намеревались. <strong>Нет прав иска.</strong> Пример: город строит парк рядом с моим домом, дом дорожает. Я incidental beneficiary, но прав на договор города со строителем у меня нет.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Vesting of Rights — когда beneficiary становится неприкосновенным</div>
+  <div class="hbox gold">
+    <div class="hbox-label">Три события vesting</div>
+    <div class="hbox-text">Пока права не vested, стороны могут изменить или расторгнуть договор. После vesting — только с согласия beneficiary.<br><br>Права vestsят, когда beneficiary:<br>1. <strong>Узнаёт о договоре и согласился</strong> (manifestation of assent)<br>2. <strong>Положился</strong> на договор (detrimental reliance)<br>3. <strong>Предъявил иск</strong> по договору</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Life Insurance исключение</div>
+    <div class="hbox-text">В страховых полисах по умолчанию beneficiary <strong>не vests</strong> — страхователь может изменить beneficiary без согласия текущего. Если не оговорено «irrevocable beneficiary».</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Defenses против beneficiary</div>
+  <div class="hbox blue">
+    <div class="hbox-label">Promisor может использовать все defenses</div>
+    <div class="hbox-text">Когда beneficiary подаёт иск на промиссора, промиссор может использовать все <strong>defenses, которые имел бы против промиссии</strong>: lack of consideration, breach by promissee, statute of frauds, fraud и т.д. Beneficiary не имеет больше прав, чем промиссии.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Assignment — детали</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Что можно assign</div>
+    <div class="concept-card-body">По умолчанию большинство прав assignable. <strong>Нельзя assign:</strong><br>• Когда assignment <strong>substantially change</strong> duty obligor (personal services, unique goods)<br>• Когда закон запрещает (некоторые tort claims, government contracts)<br>• Когда договор прямо запрещает <em>assignment of rights</em> (но суды толкуют ограничительно — обычно читают как запрет delegation, не assignment)</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Requirements для валидной assignment</div>
+    <div class="concept-card-body">• <strong>Present intent</strong> to transfer<br>• <strong>Identification</strong> of right being assigned<br>• Обычно <strong>no writing requirement</strong>, кроме прав попадающих под SOF<br>• <strong>Consideration</strong> <em>не обязательно</em> (gratuitous assignment валидна, но revocable)</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Notice to Obligor</div>
+    <div class="concept-card-body">Assignment валидна с момента совершения. Но obligor, не знающий об assignment, может добросовестно заплатить assignor'у — это освободит его. После notice — должен платить assignee.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Multiple Assignments</div>
+    <div class="concept-card-body">Если assignor assigns одно право двум assignees, кто получает?<br><strong>Majority (American rule):</strong> первый assignee in time (first to receive assignment wins).<br><strong>Minority (English rule):</strong> первый, кто уведомил obligor.<br>UCC Article 9 (secured transactions) имеет свои сложные priority rules.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Delegation — кто может делегировать обязанности</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Когда delegation недопустима</div>
+    <div class="concept-card-body">• <strong>Personal service contracts</strong> — ты нанял <em>именно этого художника</em>; он не может делегировать работу другому<br>• Когда делегация <strong>materially changes</strong> obligor's expectations<br>• Когда договор прямо запрещает</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Delegator остаётся ответственным</div>
+    <div class="concept-card-body">Даже после delegation, original obligor (delegator) <strong>остаётся ответственным</strong> по договору. Если delegate не исполняет — delegator отвечает. Единственный способ освободиться — <strong>novation</strong>: новый трёхсторонний договор, где obligee соглашается заменить delegator на delegate.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Novation vs Assignment vs Delegation — не путать</div>
+  <table class="comp-table">
+    <tr><th>Концепция</th><th class="ru">Что передаётся</th><th>Освобождение оригинальной стороны</th></tr>
+    <tr><td>Assignment</td><td class="ru">Rights</td><td>Да (assignor теряет rights)</td></tr>
+    <tr><td>Delegation</td><td class="ru">Duties</td><td>Нет (delegator остаётся liable)</td></tr>
+    <tr><td>Novation</td><td class="ru">Entire contract</td><td>Да, полное освобождение с согласия obligee</td></tr>
+  </table>
+</div>
+<div class="l-section">
+  <div class="l-section-label">California-specific</div>
+  <div class="hbox purple">
+    <div class="hbox-label">Cal. Civ. Code § 1559 — third party beneficiaries</div>
+    <div class="hbox-text">«A contract, made expressly for the benefit of a third person, may be enforced by him at any time before the parties thereto rescind it.» California имеет более широкое определение intended beneficiary, чем Restatement — любой третий, для чьей выгоды договор made. California суды применяют factors test в Goonewardene v. ADP (2019), определяя intent.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Exam Traps</div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 1: Assignment of rights vs Delegation of duties</div>
+    <div class="hbox-text">Большинство договоров имеют и права, и обязанности. Просто сказать «I assign the contract» — обычно означает и assignment rights, и delegation duties. Важно: <strong>assignment rights</strong> + <strong>delegation duties</strong> = технически два отдельных действия.</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 2: «Non-assignability» clause</div>
+    <div class="hbox-text">Клаузула «no assignment» часто толкуется судами <strong>ограничительно</strong>: запрещает только delegation duties, не assignment of rights (особенно на payment). Чтобы реально запретить assignment rights, формулировка должна быть очень чёткой («any purported assignment shall be void»).</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 3: Beneficiary не может изменить условия</div>
+    <div class="hbox-text">Intended beneficiary имеет право enforce на условиях договора. Не может требовать больше, чем в договоре. Не может модифицировать договор. Он standing in the shoes of promisee.</div>
+  </div>
 </div>`
       },
       {
