@@ -1,9 +1,9 @@
-const CACHE = 'bar-exam-v1';
+const CACHE = 'bar-exam-v2';
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/data.js',
-  'https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,800;1,9..144,300;1,9..144,600&family=Geist+Mono:wght@300;400;500&family=Geist:wght@300;400;500&display=swap'
+  './',
+  './index.html',
+  './data.js',
+  './manifest.json'
 ];
 
 self.addEventListener('install', e => {
@@ -15,32 +15,45 @@ self.addEventListener('install', e => {
 
 self.addEventListener('activate', e => {
   e.waitUntil(
-    caches.keys().then(keys =>
-      Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k)))
-    )
+    caches.keys()
+      .then(keys => Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k))))
+      .then(() => self.clients.claim())
   );
-  self.clients.claim();
 });
 
+function cacheOk(req, res) {
+  if (!res || !res.ok) return;
+  const url = new URL(req.url);
+  if (url.origin !== self.location.origin && !url.hostname.includes('fonts.g')) return;
+  const clone = res.clone();
+  caches.open(CACHE).then(c => c.put(req, clone)).catch(() => {});
+}
+
 self.addEventListener('fetch', e => {
-  if (e.request.url.includes('api.github.com')) return;
-  if (e.request.url.includes('fonts.g')) {
+  const req = e.request;
+  if (req.method !== 'GET') return;
+  if (req.url.includes('api.github.com')) return;
+
+  const accept = req.headers.get('accept') || '';
+  const isHTML = req.mode === 'navigate' || accept.includes('text/html');
+
+  if (isHTML) {
+    // network-first for pages: always show fresh app shell when online
     e.respondWith(
-      caches.match(e.request).then(r => r || fetch(e.request).then(res => {
-        const clone = res.clone();
-        caches.open(CACHE).then(c => c.put(e.request, clone));
-        return res;
-      }).catch(() => caches.match(e.request)))
+      fetch(req)
+        .then(res => { cacheOk(req, res); return res; })
+        .catch(() => caches.match(req).then(r => r || caches.match('./index.html')))
     );
     return;
   }
+
+  // stale-while-revalidate for static assets
   e.respondWith(
-    caches.match(e.request).then(r => r || fetch(e.request).then(res => {
-      if (e.request.url.includes(self.location.origin)) {
-        const clone = res.clone();
-        caches.open(CACHE).then(c => c.put(e.request, clone));
-      }
-      return res;
-    }).catch(() => caches.match(e.request) || new Response('Offline', {status: 503})))
+    caches.match(req).then(cached => {
+      const network = fetch(req)
+        .then(res => { cacheOk(req, res); return res; })
+        .catch(() => cached);
+      return cached || network;
+    })
   );
 });
