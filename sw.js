@@ -1,4 +1,4 @@
-const CACHE = 'bar-exam-v5';
+const CACHE = 'bar-exam-v6';
 const ASSETS = [
   '/',
   '/index.html',

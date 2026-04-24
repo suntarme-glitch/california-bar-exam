@@ -901,6 +901,70 @@ body {
   cursor: pointer;
 }
 .modal-danger:hover { color: var(--red); }
+
+/* ── Заметки урока ────────────────────────────── */
+.notes-section {
+  margin-top: 48px;
+  padding: 24px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+.notes-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+.notes-title {
+  font-family: 'Fraunces', serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.notes-title::before {
+  content: '✎';
+  font-family: 'Geist', sans-serif;
+  font-size: 18px;
+  color: var(--accent, #d4a574);
+}
+.notes-status {
+  font-size: 12px;
+  color: var(--muted);
+  font-family: 'Geist Mono', monospace;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.notes-status.show { opacity: 1; }
+.notes-textarea {
+  width: 100%;
+  min-height: 160px;
+  padding: 14px 16px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text);
+  font-family: 'Geist', sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  resize: vertical;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+}
+.notes-textarea:focus {
+  outline: none;
+  border-color: var(--accent, #d4a574);
+}
+.notes-textarea::placeholder { color: var(--muted); opacity: 0.6; }
+.notes-hint {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 10px;
+  font-family: 'Geist Mono', monospace;
+}
 </style>
 </head>
 <body>
@@ -1061,7 +1125,11 @@ async function gistLoad() {
     const content = data.files[GIST_FILE]?.content;
     if (!content) return null;
     setSyncStatus('ok', 'Синхронизировано');
-    return JSON.parse(content);
+    const parsed = JSON.parse(content);
+    if (parsed && parsed.__v === 2) {
+      return { progress: parsed.progress || {}, notes: parsed.notes || {} };
+    }
+    return { progress: parsed || {}, notes: {} };
   } catch (e) {
     setSyncStatus('err', 'Ошибка загрузки');
     return null;
@@ -1073,7 +1141,8 @@ async function gistSave(progress) {
   if (!token) return;
   setSyncStatus('busy', 'Сохранение...');
   try {
-    const body = { files: { [GIST_FILE]: { content: JSON.stringify(progress) } } };
+    const payload = { __v: 2, progress, notes: getNotes() };
+    const body = { files: { [GIST_FILE]: { content: JSON.stringify(payload) } } };
     let url, method;
     if (gistId) {
       url = `https://api.github.com/gists/${gistId}`;
@@ -1109,6 +1178,41 @@ function saveProgress(data) {
   localStorage.setItem('barProgress', JSON.stringify(data));
   clearTimeout(_syncTimer);
   _syncTimer = setTimeout(() => gistSave(data), 800);
+}
+
+function getNotes() {
+  return JSON.parse(localStorage.getItem('barNotes') || '{}');
+}
+
+function saveNote(sId, lIdx, text) {
+  const notes = getNotes();
+  if (!notes[sId]) notes[sId] = {};
+  if (text && text.trim()) {
+    notes[sId][lIdx] = text;
+  } else {
+    delete notes[sId][lIdx];
+    if (!Object.keys(notes[sId]).length) delete notes[sId];
+  }
+  localStorage.setItem('barNotes', JSON.stringify(notes));
+  clearTimeout(_syncTimer);
+  _syncTimer = setTimeout(() => gistSave(getProgress()), 800);
+}
+
+let _notesTimer = null;
+function onNotesInput(e) {
+  const sId = SUBJECTS[currentSubjectIdx].id;
+  const lIdx = currentLessonIdx;
+  const text = e.target.value;
+  const status = document.getElementById('notes-status');
+  clearTimeout(_notesTimer);
+  if (status) { status.textContent = 'печатаю…'; status.classList.add('show'); }
+  _notesTimer = setTimeout(() => {
+    saveNote(sId, lIdx, text);
+    if (status) {
+      status.textContent = 'сохранено';
+      setTimeout(() => status.classList.remove('show'), 1500);
+    }
+  }, 500);
 }
 
 function isDone(sId, lIdx) {
@@ -1150,14 +1254,30 @@ async function saveSyncSettings() {
     const remote = await gistLoad();
     if (remote) {
       const local = getProgress();
-      const merged = mergeProgress(local, remote);
+      const merged = mergeProgress(local, remote.progress || {});
       localStorage.setItem('barProgress', JSON.stringify(merged));
+      const localNotes = getNotes();
+      const mergedNotes = mergeNotes(localNotes, remote.notes || {});
+      localStorage.setItem('barNotes', JSON.stringify(mergedNotes));
       renderDashboard(); renderSidebar(); renderProgress();
       await gistSave(merged);
     } else if (!gistId) {
       await gistSave(getProgress());
     }
   }
+}
+
+function mergeNotes(a, b) {
+  const merged = { ...a };
+  for (const sId in b) {
+    if (!merged[sId]) merged[sId] = {};
+    for (const lIdx in b[sId]) {
+      const local = merged[sId][lIdx] || '';
+      const remote = b[sId][lIdx] || '';
+      merged[sId][lIdx] = local.length >= remote.length ? local : remote;
+    }
+  }
+  return merged;
 }
 
 function clearSyncSettings() {
@@ -1294,7 +1414,18 @@ function openLesson(si, li) {
   badge.style.border = '1px solid ' + subj.color.replace(')', '-dim)').replace('var(--', 'var(--');
 
   document.getElementById('lesson-title').textContent = lesson.title;
-  document.getElementById('lesson-body').innerHTML = lesson.content;
+  const savedNote = (getNotes()[subj.id] || {})[li] || '';
+  const notesBlock = `
+<div class="notes-section">
+  <div class="notes-header">
+    <div class="notes-title">Мои заметки</div>
+    <div class="notes-status" id="notes-status"></div>
+  </div>
+  <textarea class="notes-textarea" id="lesson-notes" placeholder="Запиши главные мысли, свои формулировки, вопросы, которые хочется разобрать позже…" oninput="onNotesInput(event)"></textarea>
+  <div class="notes-hint">Сохраняется автоматически. Синхронизируется между устройствами, если настроен Gist.</div>
+</div>`;
+  document.getElementById('lesson-body').innerHTML = lesson.content + notesBlock;
+  document.getElementById('lesson-notes').value = savedNote;
 
   updateCheckBtn();
   renderSidebar();
