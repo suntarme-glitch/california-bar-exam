@@ -66,6 +66,67 @@ const SUBJECTS = [
       <strong>Правильный ответ: B.</strong> Marbury v. Madison установило доктрину <em>judicial review</em> — право федеральных судов (и прежде всего Верховного суда) проверять конституционность законов Конгресса и признавать их недействительными при противоречии Конституции. Это право не прописано в Конституции явно — Верховный суд вывел его самостоятельно через толкование статьи III.
     </div>
   </div>
+</div><div class="l-section">
+  <div class="l-section-label">Три забытых звена между Вильгельмом и Америкой</div>
+  <p class="l-text">Между 1066 и 1776 произошли три события, без которых не понять логику common law. На Bar Exam они всплывают косвенно — через доктрины, которые на них опираются.</p>
+  <div class="concept-card">
+    <div class="concept-card-title">Генрих II и writ system (1154–1189)</div>
+    <div class="concept-card-body">Король создал систему стандартных приказов (<span class="l-en">writs</span>), с которыми истец шёл в королевский суд. Если твой спор не попадал ни в один writ — королевский суд не мог тебя слушать. Отсюда принцип <em>ubi jus, ibi remedium</em> («где право, там и средство защиты») и его обратная сторона: <strong>«no writ, no right»</strong>. Так возникла знаменитая процессуальная жёсткость common law, которая впоследствии породила equity.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Разделение law и equity (XIV век)</div>
+    <div class="concept-card-body">К XIV веку common law окостенело. Истцы, не нашедшие подходящий writ, шли напрямую к королю через Lord Chancellor. Так возник <strong>Court of Chancery</strong> и параллельная система <span class="l-term">equity</span>. Два суда существовали независимо до Judicature Acts 1873–1875 в Англии. В США слияние произошло в 1938 году с принятием Federal Rules of Civil Procedure. Именно отсюда живёт деление на legal и equitable remedies.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Reception statutes после независимости</div>
+    <div class="concept-card-body">После 1776 года каждый штат принял закон, «принимающий» английское common law по состоянию на конкретную дату (как правило, 1776 или дата основания колонии), за исключением того, что противоречит американским институтам. <strong>Калифорния приняла reception statute в 1850 году</strong> (Cal. Civ. Code § 22.2). Формально калифорнийское common law до сих пор отсылает к английскому праву 1850 года как к исходной точке.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Louisiana — исключение из всех правил</div>
+  <div class="hbox blue">
+    <div class="hbox-label">Единственный civil law штат</div>
+    <div class="hbox-text">Правовая система Луизианы построена не на common law, а на civil law (наследие французского права и Кодекса Наполеона). Когда говорят «49 штатов следуют common law» — имеется в виду именно это. На Bar Exam Калифорнии не тестируется, но знать полезно.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Дополнение к timeline: ключевые кейсы, формирующие фундамент</div>
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-year">1772</div>
+      <div class="tl-text"><strong>Somerset v. Stewart.</strong> Английское решение, установившее, что рабство несовместимо с common law Англии. Повлияло на американское аболиционистское движение.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">1819</div>
+      <div class="tl-text"><strong>McCulloch v. Maryland.</strong> Маршалл расширил полномочия Конгресса через Necessary and Proper Clause. Пара к Marbury по формированию федеральной власти.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">1824</div>
+      <div class="tl-text"><strong>Gibbons v. Ogden.</strong> Закрепил широкое толкование Commerce Clause — основу 90% современного федерального регулирования экономики.</div>
+    </div>
+    <div class="tl-item highlight">
+      <div class="tl-year">1938</div>
+      <div class="tl-text"><strong>Erie Railroad v. Tompkins.</strong> Отменил Swift v. Tyson (1842) и установил: федерального general common law не существует. Федеральные суды в diversity cases применяют substantive law штата. Фундаментальное решение для Civil Procedure.</div>
+    </div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">California Constitution 1879 — живой документ</div>
+  <div class="hbox gold">
+    <div class="hbox-label">Почему это критично для Cal Bar</div>
+    <div class="hbox-text">Калифорния имеет собственную конституцию 1879 года (многократно изменённую), которая в ряде случаев даёт <strong>больше прав</strong>, чем федеральная. <strong>Cal. Const. Art. I, § 1 прямо упоминает privacy как fundamental right</strong> — федеральная Конституция такого текста не содержит. На Cal Bar это регулярно проверяется: штат не может ссылаться на то, что federal Constitution не защищает privacy, потому что state Constitution защищает.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Exam Traps на этой теме</div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 1: Federal general common law</div>
+    <div class="hbox-text">Не путай Common Law of England и Common Law of the United States. <strong>Федерального general common law нет с 1938 года (Erie).</strong> Но есть federal common law в узких областях: admiralty, interstate disputes, federal officer liability, вопросы прав и обязанностей США как юридического лица.</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 2: Откуда взялся judicial review</div>
+    <div class="hbox-text">Вопрос: «Where does the power of judicial review come from?». Правильный ответ: <strong>implied from Article III</strong>, not expressly stated. Конституция не даёт это право явно — Маршалл вывел его через толкование в Marbury v. Madison.</div>
+  </div>
 </div>`
       },
       {
@@ -125,6 +186,63 @@ const SUBJECTS = [
       <strong>Правильный ответ: A.</strong> Stare decisis обязывает нижестоящие суды следовать решениям вышестоящих судов той же юрисдикции. Суд штата обязан применить решение верховного суда штата. Факты не должны быть идентичными — достаточно, что правовой вопрос аналогичен. Прецеденты не имеют срока давности.
     </div>
   </div>
+</div><div class="l-section">
+  <div class="l-section-label">Vertical vs. Horizontal stare decisis</div>
+  <p class="l-text">Твой урок разбирает vertical stare decisis (решения вышестоящих судов). Но есть второе измерение: связан ли суд своими собственными прежними решениями? Это <span class="l-term">horizontal stare decisis</span>, и здесь правила мягче.</p>
+  <div class="concept-card">
+    <div class="concept-card-title">US Supreme Court и его собственные прецеденты</div>
+    <div class="concept-card-body">Может отменить свои прежние решения, но делает это с осторожностью. Факторы пересмотра из <strong>Planned Parenthood v. Casey (1992)</strong>: workability правила, reliance interests, changes in related law, changes in facts. Пример громкой отмены: <strong>Dobbs v. Jackson (2022)</strong> отменил Roe v. Wade (1973) и Casey по вопросу конституционного права на аборт.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">California Supreme Court</div>
+    <div class="concept-card-body">Также связан своими решениями через horizontal stare decisis, но может их пересматривать. Высшая инстанция штата по вопросам California law — выше никого нет.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Три техники работы с прецедентом</div>
+  <table class="comp-table">
+    <tr><th>Техника</th><th class="ru">Что делает суд</th><th>Кто может использовать</th></tr>
+    <tr><td>Distinguishing</td><td class="ru">«Прецедент к нам не применяется, факты принципиально отличаются»</td><td>Любой суд, включая нижестоящий</td></tr>
+    <tr><td>Narrowing</td><td class="ru">Ограничительное толкование holding прежнего решения</td><td>Любой суд</td></tr>
+    <tr><td>Overruling</td><td class="ru">Прямая отмена прецедента</td><td>Только тот же суд или вышестоящий</td></tr>
+  </table>
+  <div class="hbox blue">
+    <div class="hbox-label">Зачем это знать</div>
+    <div class="hbox-text">Нижестоящий суд не может overrule прецедент вышестоящего, но может distinguish — показать, что факты настолько различны, что правило не применяется. Это основной приём калифорнийских судов, когда они хотят обойти неудобный прецедент, не нарушая иерархию.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">En banc review в апелляционных судах</div>
+  <p class="l-text">Апелляционный суд (например, 9th Circuit) обычно рассматривает дело в составе <strong>panel из 3 судей</strong>. Их решение — прецедент для всего circuit. Другая panel формально связана им только через горизонтальный stare decisis.</p>
+  <div class="hbox gold">
+    <div class="hbox-label">Когда собирается en banc</div>
+    <div class="hbox-text">Если решение panel требует пересмотра всем составом — назначается <span class="l-term">en banc review</span> (все активные судьи circuit). 9th Circuit — крупнейший в стране; из-за размера он использует «limited en banc» из 11 судей, а не из всех 29. Только en banc может отменить прежнее решение panel того же circuit.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Уникальная специфика California Courts of Appeal</div>
+  <div class="hbox red">
+    <div class="hbox-label">Auto Equity Sales v. Superior Court (1962)</div>
+    <div class="hbox-text">Критическая калифорнийская особенность: <strong>решение одного District формально не связывает другой District</strong>. Superior Court обязан следовать <em>любому</em> Court of Appeal, пока решение по вопросу одно. Если разные Districts вынесли <strong>противоречивые решения</strong> — Superior Court сам выбирает, какое применить. Это уникально для Калифорнии среди крупных штатов. На Cal Bar это любимый подвох.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Independent State Grounds — механизм защиты от federal review</div>
+  <div class="hbox purple">
+    <div class="hbox-label">People v. Disbrow (1976)</div>
+    <div class="hbox-text">Калифорнийский Supreme Court может толковать California Constitution <strong>более широко</strong>, чем US Supreme Court толкует federal Constitution. Если решение основано на «adequate and independent state grounds» — US Supreme Court <strong>не может его пересмотреть</strong>. Это важнейший механизм: Калифорния даёт больше прав, чем федеральный минимум, и федеральные суды бессильны это отменить.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Exam Traps</div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 1: 9th Circuit и California courts</div>
+    <div class="hbox-text">Обязателен ли 9th Circuit для California state courts? <strong>Нет.</strong> Классическая ловушка. Решения 9th Circuit обязательны только для federal courts в его округе. Для судов штата они только persuasive. California state courts в вопросах федерального права связаны только US Supreme Court.</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 2: California Supreme Court и US Supreme Court</div>
+    <div class="hbox-text">По federal constitutional questions California Supreme Court обязан следовать US Supreme Court. <strong>Но</strong> может дать более широкую защиту по California Constitution через independent state grounds.</div>
+  </div>
 </div>`
       },
       {
@@ -167,6 +285,65 @@ const SUBJECTS = [
 <div class="hbox blue">
   <div class="hbox-label">Важно для Bar Exam</div>
   <div class="hbox-text">На California Bar Exam некоторые предметы тестируются по федеральным правилам, другие — по калифорнийским. Civil Procedure может быть как Federal Rules (FRCP), так и California Code of Civil Procedure. Всегда определяй, какое право применяется, прежде чем отвечать.</div>
+</div><div class="l-section">
+  <div class="l-section-label">Enumerated Powers Конгресса (Article I, Section 8)</div>
+  <p class="l-text">Конгресс имеет только те полномочия, что ему <strong>явно переданы</strong>. Это фундаментальное отличие от штатов, которые обладают остаточной police power. Главные полномочия Конгресса:</p>
+  <div class="concept-card">
+    <div class="concept-card-title">Commerce Clause</div>
+    <div class="concept-card-body">Регулирование торговли между штатами. Основа 90% федерального регулирования экономики. Расширено до «activities substantially affecting interstate commerce» через <em>Wickard v. Filburn (1942)</em>. Сужено обратно через <em>US v. Lopez (1995)</em> и <em>US v. Morrison (2000)</em>: чисто некоммерческая, non-economic деятельность (владение оружием у школ, gender-motivated violence) находится вне Commerce Clause.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Taxing and Spending Power</div>
+    <div class="concept-card-body">Обложение налогами и расходы «для общего блага». Через этот механизм Конгресс обходит прямые ограничения: не может заставить штат принять закон, но может <strong>обусловить федеральное финансирование</strong>. Пределы установлены в <em>South Dakota v. Dole (1987)</em> и <em>NFIB v. Sebelius (2012)</em> на примере Medicaid expansion.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Necessary and Proper Clause</div>
+    <div class="concept-card-body">«Принимать все законы, необходимые и правильные для осуществления» других полномочий. Маршалл в <em>McCulloch v. Maryland (1819)</em> дал широкое толкование. Не самостоятельное полномочие, а способ реализации других.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">10-я поправка и anti-commandeering</div>
+  <div class="hbox gold">
+    <div class="hbox-label">Что осталось штатам</div>
+    <div class="hbox-text">«Полномочия, не делегированные Соединённым Штатам Конституцией и не запрещённые ею штатам, сохраняются за штатами или народом». Конгресс <strong>не может «скомандовать»</strong> штатам принять закон или заставить штатных чиновников исполнять федеральные программы.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Ключевые кейсы anti-commandeering</div>
+    <div class="concept-card-body"><strong>New York v. United States (1992)</strong> — нельзя заставить штат принять закон о утилизации радиоактивных отходов. <strong>Printz v. United States (1997)</strong> — нельзя заставить шерифов штата проводить federal background checks. <strong>Murphy v. NCAA (2018)</strong> — нельзя заставить штат сохранять запрет на спортивные ставки.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Четыре категории preemption</div>
+  <p class="l-text">Твой урок описывает две категории. На экзамене проверяются все четыре.</p>
+  <table class="comp-table">
+    <tr><th>Тип</th><th class="ru">Что это</th><th>Пример</th></tr>
+    <tr><td>Express</td><td class="ru">Конгресс прямо написал, что штаты не могут регулировать</td><td>Federal Aviation Act</td></tr>
+    <tr><td>Field</td><td class="ru">Конгресс настолько полно урегулировал область, что места штатам не осталось</td><td>Атомная энергетика, иммиграция</td></tr>
+    <tr><td>Conflict (impossibility)</td><td class="ru">Физически невозможно соблюсти одновременно федеральный и штатный закон</td><td>Labeling requirements</td></tr>
+    <tr><td>Obstacle</td><td class="ru">Штатный закон препятствует достижению целей федерального</td><td>Иммиграционные ограничения штатов</td></tr>
+  </table>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Dormant Commerce Clause</div>
+  <div class="hbox blue">
+    <div class="hbox-label">Обратная сторона Commerce Clause</div>
+    <div class="hbox-text">Даже если Конгресс не действует, штаты не могут принимать законы, которые <strong>дискриминируют межштатную торговлю</strong> или <strong>чрезмерно её обременяют</strong>. Это implied limitation, выведенная судами из Commerce Clause. Классическая тема Con Law для Bar Exam. Pike balancing test для non-discriminatory regulations с local benefits и interstate burdens.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Full Faith and Credit Clause (Article IV, § 1)</div>
+  <p class="l-text">Каждый штат обязан признавать публичные акты, записи и судебные решения других штатов. На Bar Exam всплывает в контексте: развод в другом штате, foreign judgments, enforcement of sister-state судебных решений, child custody (через UCCJEA).</p>
+</div>
+<div class="l-section">
+  <div class="l-section-label">California как самый активный «независимый» штат</div>
+  <div class="hbox gold">
+    <div class="hbox-label">Больше защит, чем federal minimum</div>
+    <div class="hbox-text">Cal. Const. Art. I содержит больше защит, чем federal Bill of Rights:<br>• <strong>§ 1</strong> — explicit right of privacy (federal нет такого текста)<br>• <strong>§ 2</strong> — free speech (шире, чем 1st Amendment в ряде контекстов)<br>• <strong>§ 13</strong> — search and seizure (иногда толкуется строже, чем 4th Amendment)<br>• School searches — Калифорния даёт больше защит несовершеннолетним</div>
+  </div>
+  <div class="hbox purple">
+    <div class="hbox-label">Sanctuary laws и anti-commandeering в действии</div>
+    <div class="hbox-text">Калифорния приняла SB 54 (California Values Act, 2017), ограничивающий сотрудничество местных властей с иммиграционными. <strong>United States v. California (9th Cir. 2019)</strong> в значительной части оставил закон в силе — живой пример anti-commandeering doctrine в действии.</div>
+  </div>
 </div>`
       },
       {
@@ -216,6 +393,78 @@ const SUBJECTS = [
       <strong>Legal remedy</strong> — денежная компенсация (damages). Присуждается судьёй с присяжными.<br>
       <strong>Equitable remedy</strong> — injunction (запрет), specific performance (принудительное исполнение договора), rescission (расторжение). Присуждается только судьёй, без присяжных. Доступно только когда legal remedy «inadequate» — недостаточно.
     </div>
+  </div>
+</div><div class="l-section">
+  <div class="l-section-label">Statutory Interpretation — отдельный уровень мастерства</div>
+  <p class="l-text">Это то, что экзаменаторы любят прятать в эссе. Суд толкует статут — и от метода толкования зависит результат.</p>
+  <div class="concept-card">
+    <div class="concept-card-title">Plain Meaning Rule</div>
+    <div class="concept-card-body">Начинай с обычного значения слов. Если текст ясен — анализ заканчивается. Legislative history не нужен.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Textualism (школа Scalia)</div>
+    <div class="concept-card-body">Толкование строго по тексту. То, что законодатели «имели в виду» — не имеет значения. Значение имеет только то, что они написали.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Purposivism (школа Breyer)</div>
+    <div class="concept-card-body">Толкование по цели закона. Суд выясняет, какую проблему Конгресс хотел решить, и выбирает толкование, наилучшим образом достигающее этой цели.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Canons of Construction</div>
+    <div class="concept-card-body">Латинские презумпции толкования:<br>• <strong>Ejusdem generis</strong> — «того же рода». Если после списка стоит общий термин, он ограничен предметами того же класса.<br>• <strong>Expressio unius est exclusio alterius</strong> — упоминание одного исключает другое.<br>• <strong>Noscitur a sociis</strong> — слово узнаётся по компании, в которой стоит.<br>• <strong>Rule of lenity</strong> — неоднозначные уголовные статуты толкуются в пользу обвиняемого.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Administrative Agencies и нормотворчество</div>
+  <p class="l-text">Огромный слой американского права — это regulations, принятые исполнительными агентствами (EPA, SEC, FDA, NLRB, IRS). Без понимания этого уровня нельзя понять современное право.</p>
+  <div class="hbox red">
+    <div class="hbox-label">Важнейшее изменение 2024 года: Loper Bright v. Raimondo</div>
+    <div class="hbox-text">Верховный суд <strong>отменил Chevron deference</strong> — доктрину 40-летней давности, по которой суды уступали толкованию агентством неоднозначного статута. Теперь <strong>суды сами толкуют</strong> неоднозначные статуты, не отступая перед агентствами. Это свежее изменение, критичное для Bar 2026. Знать формулировку: «Chevron was overruled; courts now interpret statutes de novo».</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Skidmore respect (сохранился)</div>
+    <div class="concept-card-body">Более слабая форма уважения к позиции агентства. Суд учитывает экспертизу агентства, но не обязан следовать. Это дефолт после отмены Chevron.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">APA (Administrative Procedure Act, 1946)</div>
+    <div class="concept-card-body">Регулирует процедуру принятия rules и adjudication агентствами. Notice-and-comment rulemaking, formal vs informal, judicial review standards (arbitrary and capricious, substantial evidence).</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Источники California-specific</div>
+  <table class="comp-table">
+    <tr><th>Источник</th><th class="ru">Что регулирует</th><th>Важность для Bar</th></tr>
+    <tr><td>California Constitution (1879)</td><td class="ru">Высшая норма штата</td><td>★★★★★</td></tr>
+    <tr><td>California Codes (29 кодексов)</td><td class="ru">Civil Code, CCP, Penal Code, Evidence Code, Probate Code, Family Code, B&P Code</td><td>★★★★★</td></tr>
+    <tr><td>California Code of Regulations</td><td class="ru">Подзаконные акты агентств штата</td><td>★★☆☆☆</td></tr>
+    <tr><td>California Rules of Court</td><td class="ru">Процессуальные правила</td><td>★★★☆☆</td></tr>
+    <tr><td>California case law</td><td class="ru">Прецеденты Supreme Court и Courts of Appeal</td><td>★★★★★</td></tr>
+  </table>
+  <div class="hbox gold">
+    <div class="hbox-label">California Evidence Code — уникальная кодификация</div>
+    <div class="hbox-text">California Evidence Code (1965) — <strong>кодифицированные правила доказательств</strong>, в отличие от Federal Rules of Evidence. По структуре и содержанию во многом совпадает, но есть десятки отличий, которые проверяются на Cal Bar. Особая тема — privileges: psychotherapist-patient (CEC § 1010), marital (§ 970), clergy (§ 1030) — формулировки отличаются от FRE.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">California как лидер в products liability: Greenman v. Yuba (1963)</div>
+  <div class="hbox purple">
+    <div class="hbox-label">Когда Калифорния обогнала Restatement</div>
+    <div class="hbox-text">Restatements — важная persuasive authority. California часто им следует, но иногда обгоняет. Классический пример: <strong>Greenman v. Yuba Power Products (1963)</strong>. Калифорния <strong>первой в США</strong> ввела strict products liability — на два года раньше, чем ALI приняла Restatement (Second) of Torts § 402A в 1965. Это пример, когда California case law сама стала источником для остальной страны.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Exam Traps</div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 1: «Court must follow the Restatement»</div>
+    <div class="hbox-text">Restatements не являются law. Они persuasive authority. Ответ <strong>«a court must follow the Restatement» на Bar — всегда неправильный</strong>. Правильный ответ: «court may consider» или «courts often adopt».</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 2: Uniform Laws ≠ автоматическое право</div>
+    <div class="hbox-text">UCC, UPA, Uniform Probate Code — это <strong>model laws</strong>. Становятся правом штата только когда штат их принимает. Калифорния приняла UCC, но <strong>со своими модификациями</strong> (Cal. Com. Code — в основе UCC, но с отличиями).</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 3: MPC и California Penal Code</div>
+    <div class="hbox-text">Не путать Model Penal Code (академический проект ALI) с California Penal Code. Калифорния <strong>не приняла MPC целиком</strong>. California Penal Code существует с 1872 года, и в нём живы многие common law-конструкции. Когда вопрос спрашивает «under the Model Penal Code» — применяй MPC правила, не California.</div>
   </div>
 </div>`
       },
@@ -275,6 +524,87 @@ const SUBJECTS = [
       <strong>Правильный ответ: C.</strong> Федеральный суд имеет <em>diversity jurisdiction</em> (разная гражданская принадлежность сторон + сумма свыше $75,000) — оба условия выполнены. Но это не исключает юрисдикцию суда штата: истец может подать иск в любой из судов. Diversity jurisdiction — дополнительная, а не исключительная юрисдикция федеральных судов.
     </div>
   </div>
+</div><div class="l-section">
+  <div class="l-section-label">Специализированные федеральные суды</div>
+  <p class="l-text">Твой урок покрывает District Courts, Circuit Courts и Supreme Court. Но федеральная система шире. На Bar Exam могут всплыть специализированные суды.</p>
+  <table class="comp-table">
+    <tr><th>Суд</th><th class="ru">Что рассматривает</th><th>Куда апелляция</th></tr>
+    <tr><td>US Tax Court</td><td class="ru">Налоговые споры с IRS</td><td>Circuit Courts of Appeals</td></tr>
+    <tr><td>US Court of Federal Claims</td><td class="ru">Денежные иски против правительства США</td><td>Federal Circuit</td></tr>
+    <tr><td>US Court of International Trade</td><td class="ru">Международная торговля, тарифы</td><td>Federal Circuit</td></tr>
+    <tr><td>US Bankruptcy Courts</td><td class="ru">Банкротства (unit of District Court)</td><td>District Court, далее Circuit</td></tr>
+    <tr><td>Federal Circuit (CAFC)</td><td class="ru">Патенты, claims против правительства</td><td>US Supreme Court</td></tr>
+  </table>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Article III vs Article I Courts — ключевое различие</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Article III Courts</div>
+    <div class="concept-card-body">Созданы на основании статьи III Конституции. Судьи — <strong>пожизненный срок</strong>, защищены от снижения зарплаты. Гарантия судебной независимости. Включают District Courts, Circuit Courts, US Supreme Court, Court of International Trade.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Article I Courts (Legislative Courts)</div>
+    <div class="concept-card-body">Созданы Конгрессом на основании статьи I. Судьи — <strong>срочные назначения</strong>, нет пожизненного срока. Tax Court, Bankruptcy Courts, Magistrate Judges, US Court of Federal Claims. Это важно для constitutional law вопросов на Bar (separation of powers): Article I courts не могут рассматривать определённые категории дел, которые должны идти в Article III суды.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">US Supreme Court: детали процедуры</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Original Jurisdiction (Article III, § 2)</div>
+    <div class="concept-card-body">Supreme Court может быть судом первой инстанции только в узких категориях: <strong>споры между штатами</strong>, <strong>иски против послов и дипломатов</strong>. Все остальные дела — только через certiorari после нижестоящих инстанций.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Rule of Four</div>
+    <div class="concept-card-body">Для выдачи certiorari нужно согласие <strong>4 из 9 justices</strong>. Это ниже большинства — защита права меньшинства на рассмотрение дела. Supreme Court принимает ~80 дел в год из ~8 000 petitions for certiorari (около 1%).</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Типы opinions</div>
+    <div class="concept-card-body"><strong>Majority opinion</strong> — основное решение, 5+ голосов, это holding.<br><strong>Concurring opinion</strong> — согласие с результатом, но другая мотивировка.<br><strong>Dissenting opinion</strong> — несогласие. Не binding, но часто становится основой для будущего overruling.<br><strong>Plurality opinion</strong> — opinion, набравший больше голосов, чем любой другой, но меньше большинства. Спорная прецедентная сила — применяется <strong>Marks rule</strong>: holding — то, что принято на «narrowest grounds».<br><strong>Per curiam</strong> — анонимное решение «от суда», обычно короткое и единогласное.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">California courts: детали</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Superior Courts — 58 округов</div>
+    <div class="concept-card-body">Один Superior Court в каждом из 58 counties Калифорнии. Рассматривают всё: civil, criminal, family, probate, juvenile. Это unified trial court system (реформа 1998 года объединила прежние Municipal и Superior Courts).</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Courts of Appeal — 6 Districts</div>
+    <div class="concept-card-body"><strong>1st District</strong> (Сан-Франциско) · <strong>2nd</strong> (Лос-Анджелес, самый загруженный) · <strong>3rd</strong> (Сакраменто) · <strong>4th</strong> (Сан-Диего, также Riverside и Santa Ana) · <strong>5th</strong> (Fresno) · <strong>6th</strong> (San Jose). У большинства Districts есть Divisions.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">California Supreme Court</div>
+    <div class="concept-card-body"><strong>7 судей</strong>, возглавляет Chief Justice of California. Назначение: Governor → Commission on Judicial Appointments (CJA) → ratification voters. Срок — <strong>12 лет</strong>, затем retention election. Discretionary review ~4% заявок.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Jurisdictional Amount — важный трюк</div>
+  <div class="hbox red">
+    <div class="hbox-label">Читай формулировку буквально</div>
+    <div class="hbox-text">$75 000 — это <strong>больше</strong> $75 000. Ровно $75 000 — <strong>недостаточно</strong>. Точная формулировка 28 USC § 1332: «exceeds the sum or value of $75,000, exclusive of interest and costs». На Bar regular trap: «$75,000» vs «$75,000.01». Последнее удовлетворяет, первое — нет.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Removal Jurisdiction — перенос дела из штата в федеральный суд</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Как работает</div>
+    <div class="concept-card-body">Ответчик (не истец!) может «перенести» дело из state court в federal court, если оно могло быть изначально подано в federal. Срок: <strong>30 дней</strong> после получения complaint. Подача notice of removal в federal District Court.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Home Team Rule (28 USC § 1441(b)(2))</div>
+    <div class="concept-card-body"><strong>Diversity cases нельзя remove, если ответчик — резидент forum state.</strong> Логика: федеральные суды в diversity существуют, чтобы защитить приезжего ответчика от предвзятости местных судов. Если ответчик уже «свой» для штата — он не нуждается в такой защите. Классический Bar Exam trap.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Exam Traps</div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 1: Concurrent vs Exclusive Jurisdiction</div>
+    <div class="hbox-text">Diversity jurisdiction — <strong>не исключительная</strong>. Истец может выбрать state или federal court. Federal question — в основном concurrent, кроме нескольких эксклюзивных областей: <strong>патенты</strong>, <strong>банкротство</strong>, <strong>федеральные уголовные дела</strong>, <strong>admiralty</strong>, <strong>antitrust</strong>.</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка 2: Standard of Review на апелляции</div>
+    <div class="hbox-text">Апелляционный суд применяет разные стандарты в зависимости от того, что пересматривает:<br>• <strong>De novo</strong> — вопросы права<br>• <strong>Clearly erroneous</strong> — fact findings судьи (bench trial)<br>• <strong>Substantial evidence</strong> — verdict присяжных<br>• <strong>Abuse of discretion</strong> — дискреционные решения (discovery, admissibility evidence)</div>
+  </div>
 </div>`
       },
       {
@@ -322,6 +652,63 @@ const SUBJECTS = [
   <div class="hbox purple">
     <div class="hbox-label">Holding (Cardozo J.)</div>
     <div class="hbox-text">Нет. Duty of care существует только по отношению к <strong>foreseeable plaintiffs</strong> — тем, кому предсказуемо может быть причинён вред. Палсграф находилась слишком далеко, вред ей был непредсказуем. Нет duty — нет negligence.</div>
+  </div>
+</div><div class="l-section">
+  <div class="l-section-label">Структура опубликованного решения</div>
+  <p class="l-text">Прежде чем брифовать, нужно уметь читать само решение. Американское opinion имеет стандартную структуру.</p>
+  <div class="concept-card">
+    <div class="concept-card-title">Caption</div>
+    <div class="concept-card-body">Название дела, номер, суд, дата. Первая строка страницы. Palsgraf v. Long Island R.R. Co., 248 N.Y. 339 (1928).</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Syllabus / Headnotes</div>
+    <div class="concept-card-body">Краткое резюме в начале. Часто написано <strong>не судом</strong>, а редактором репортёра (West, LexisNexis). <strong>Не имеет юридической силы</strong>, только для ориентации. Не цитируй из syllabus.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Opinion of the Court</div>
+    <div class="concept-card-body">Собственно решение. Автор — один из судей («Delivered the opinion of the court»). Это holding.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Concurring и Dissenting Opinions</div>
+    <div class="concept-card-body">Дополнительные мнения отдельных судей. Не имеют прецедентной силы, но часто влиятельны. Dissent Andrews в Palsgraf живёт до сих пор.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Bluebook Citation — как цитируется решение</div>
+  <div class="hbox gold">
+    <div class="hbox-label">Формат</div>
+    <div class="hbox-text"><strong>Palsgraf v. Long Island R.R. Co., 248 N.Y. 339, 162 N.E. 99 (1928).</strong><br><br>Читается: том <strong>248</strong> New York Reports, страница <strong>339</strong>, параллельная цитата в North Eastern Reporter. Скобки — год решения. На Bar эссе цитировать можно короче: просто «Palsgraf» после первого полного упоминания.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Ratio decidendi vs Holding — не путаться</div>
+  <div class="hbox blue">
+    <div class="hbox-label">Это синонимы</div>
+    <div class="hbox-text">Британская терминология «<strong>ratio decidendi</strong>» = американская «<strong>holding</strong>». Если на Bar попадётся ratio decidendi — это не подвох, это то же самое, что holding. Противоположность — <em>obiter dicta</em>.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Procedural Posture — ключевой элемент анализа</div>
+  <p class="l-text">Критичный элемент, который часто забывают в case brief. Procedural posture = процессуальное положение дела. Кто апеллировал? От какого решения? Что нижестоящий суд решил?</p>
+  <div class="hbox red">
+    <div class="hbox-label">Почему это важно</div>
+    <div class="hbox-text">Procedural posture определяет <strong>стандарт пересмотра</strong>:<br>• <strong>De novo</strong> — новый разбор (legal questions, motion to dismiss)<br>• <strong>Clearly erroneous</strong> — fact findings судьи (bench trial)<br>• <strong>Abuse of discretion</strong> — дискреционные решения судьи (evidentiary rulings)<br>• <strong>Substantial evidence</strong> — verdict присяжных</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Palsgraf: дописываем Andrews Dissent</div>
+  <p class="l-text">Majority Cardozo дал holding. Но dissent Andrews стал не менее влиятельным и живёт в большинстве штатов в теме proximate cause.</p>
+  <div class="hbox purple">
+    <div class="hbox-label">Cardozo (majority)</div>
+    <div class="hbox-text">Duty существует только по отношению к <strong>foreseeable plaintiffs</strong>. Если истец вне «zone of danger» — нет duty, нет negligence. Foreseeability — элемент duty.</div>
+  </div>
+  <div class="hbox green">
+    <div class="hbox-label">Andrews (dissent)</div>
+    <div class="hbox-text">Duty существует к <strong>миру в целом</strong>, а не только к foreseeable plaintiffs. Вопрос foreseeability — это вопрос <strong>proximate cause</strong>, а не duty. Палсграф должна была выиграть, потому что causation есть.</div>
+  </div>
+  <div class="hbox gold">
+    <div class="hbox-label">Почему это важно для Bar</div>
+    <div class="hbox-text">На Bar Exam обе теории могут быть релевантны. <strong>California скорее следует Cardozo view</strong>, но в разных штатах по-разному. MBE/MEE часто проверяет именно различие: куда вы «поместите» foreseeability — в duty или в proximate cause.</div>
   </div>
 </div>`
       },
@@ -381,6 +768,69 @@ const SUBJECTS = [
     <div class="hbox-label">Conclusion</div>
     <div class="hbox-text">No contract was formed. Boris's counteroffer terminated Anya's original offer, and his subsequent attempt to accept the original terms came too late.</div>
   </div>
+</div><div class="l-section">
+  <div class="l-section-label">Вариации IRAC</div>
+  <p class="l-text">IRAC — базовый формат. Существуют его варианты, полезные в разных контекстах.</p>
+  <div class="concept-card">
+    <div class="concept-card-title">CRAC (Conclusion first)</div>
+    <div class="concept-card-body">Conclusion, Rule, Analysis, Conclusion. Начинаешь с вывода. Подходит для bench memos, brief writing, appellate briefs. <strong>Не подходит для Bar Exam essays</strong> — оценщики ждут IRAC.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">CREAC</div>
+    <div class="concept-card-body">Conclusion, Rule, Explanation, Application, Conclusion. Explanation = объяснение правила через прецеденты. Используется в legal writing courses юридических факультетов.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">IRAC для Bar Exam (канон)</div>
+    <div class="concept-card-body">Остаётся стандартом. Оценщики ищут эту структуру явно. Отступать — терять баллы. На Cal Bar эссе — <strong>всегда IRAC</strong>.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Sub-IRAC — главная техника продвинутого Bar эссе</div>
+  <p class="l-text">Если вопрос составной («Discuss all claims»), каждая подпроблема получает свой IRAC. Оценщики Cal Bar обожают видеть структурированные под-IRAC с подзаголовками.</p>
+  <div class="hbox gold">
+    <div class="hbox-label">Схема составного эссе</div>
+    <div class="hbox-text"><strong>Overall Issue:</strong> Can P recover from D?<br><br>&nbsp;&nbsp;<strong>Sub-issue 1: Negligence</strong> — IRAC<br>&nbsp;&nbsp;<strong>Sub-issue 2: Battery</strong> — IRAC<br>&nbsp;&nbsp;<strong>Sub-issue 3: Defenses</strong> — IRAC<br><br><strong>Overall Conclusion:</strong> ...</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Cal Bar Scoring: как оценивают эссе</div>
+  <table class="comp-table">
+    <tr><th>Score</th><th class="ru">Оценка</th><th>Что значит</th></tr>
+    <tr><td>40–55</td><td class="ru">Ниже проходного</td><td>Поверхностно, основные проблемы пропущены</td></tr>
+    <tr><td>60</td><td class="ru">Borderline</td><td>Половинчато</td></tr>
+    <tr><td>65</td><td class="ru">Passing</td><td>Проходной балл</td></tr>
+    <tr><td>70</td><td class="ru">Clear pass</td><td>Сильный ответ</td></tr>
+    <tr><td>75–85</td><td class="ru">Excellent</td><td>Превосходно</td></tr>
+  </table>
+  <div class="hbox blue">
+    <div class="hbox-label">На что смотрят оценщики</div>
+    <div class="hbox-text"><strong>Issue spotting</strong> — увидел ли все проблемы в фабуле<br><strong>Rule statement</strong> — знает ли правильные правила<br><strong>Application</strong> — применяет ли правила к <em>конкретным фактам</em> из фабулы<br><strong>Conclusion</strong> — даёт ли чёткий ответ</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Главная ошибка — голые Rules без Application</div>
+  <div class="hbox red">
+    <div class="hbox-label">Application — это где баллы</div>
+    <div class="hbox-text">Плохо: «The defendant breached the duty of care.» (просто вывод)<br><br>Хорошо: «<strong>Because the defendant drove at 60 mph in a 30 mph zone, as stated in the facts</strong>, the defendant breached the duty of reasonable care. A reasonable person would not exceed the posted speed limit by double, particularly in a residential area where pedestrians are foreseeable.»<br><br>Правило одно, а баллы за <strong>использование конкретных фактов</strong>. Application = факт + объяснение, почему он удовлетворяет элемент правила.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">California Hybrid Bar Exam (с июля 2025) — новый формат</div>
+  <div class="hbox gold">
+    <div class="hbox-label">Структура экзамена</div>
+    <div class="hbox-text">С июля 2025 Cal Bar отказался от MBE (NCBE) и перешёл на собственный формат:<br><br>• <strong>2 дня</strong> вместо 2.5<br>• <strong>200 multiple choice</strong> (создано California Bar) — 50% веса<br>• <strong>5 эссе по 60 минут</strong> — 35% веса<br>• <strong>1 Performance Test (PT), 90 минут</strong> — 15% веса</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Performance Test — отдельный навык</div>
+    <div class="concept-card-body">Тебе дают <strong>«file»</strong> (документы дела: письма, depositions, contracts) и <strong>«library»</strong> (выдержки из статутов и прецедентов). Задача — написать memo, brief, client letter или другой рабочий документ. IRAC там тоже работает, но встроенный в формат задания. Проверяет не знание права (оно дано в library), а навык применения.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">IRAC для Multiple Choice</div>
+  <div class="hbox purple">
+    <div class="hbox-label">Ментальный прогон</div>
+    <div class="hbox-text">На multiple choice писать не нужно, но <strong>мысленно прогоняй IRAC</strong>:<br>1. Какой правовой вопрос?<br>2. Какое правило применяется?<br>3. Как применяется к этим фактам?<br>4. Какой ответ?<br><br>Это устраняет ловушки. Неправильные варианты (distractors) обычно устраивают только если пропустить один из шагов.</div>
+  </div>
 </div>`
       },
       {
@@ -425,6 +875,99 @@ const SUBJECTS = [
     <tr><td>Defendant — ответчик</td><td class="ru">Appellee / Respondent</td><td>Defendant — обвиняемый</td></tr>
     <tr><td>Claimant — заявитель</td><td class="ru">Petitioner — подавший ходатайство</td><td>Victim — потерпевший</td></tr>
   </table>
+</div><div class="l-section">
+  <div class="l-section-label">Дополнительные критичные латинские термины</div>
+  <table class="comp-table">
+    <tr><th>Термин</th><th class="ru">Значение</th><th>Где встретится</th></tr>
+    <tr><td>habeas corpus</td><td class="ru">«доставь тело» — приказ о доставке задержанного в суд</td><td>Criminal Procedure, Constitutional Law</td></tr>
+    <tr><td>res judicata</td><td class="ru">claim preclusion — дело уже решено</td><td>Civil Procedure</td></tr>
+    <tr><td>collateral estoppel</td><td class="ru">issue preclusion — факт установлен</td><td>Civil Procedure, Evidence</td></tr>
+    <tr><td>de novo</td><td class="ru">«заново» — стандарт пересмотра без связанности</td><td>Appellate Procedure</td></tr>
+    <tr><td>sua sponte</td><td class="ru">«по своей инициативе» — суд действует сам</td><td>Civil Procedure</td></tr>
+    <tr><td>voir dire</td><td class="ru">допрос потенциальных присяжных</td><td>Criminal Procedure, Civil Procedure</td></tr>
+    <tr><td>amicus curiae</td><td class="ru">«друг суда» — третье лицо, подающее brief</td><td>Appellate Procedure</td></tr>
+    <tr><td>ex parte</td><td class="ru">процесс с одной стороной (TRO)</td><td>Remedies, Civil Procedure</td></tr>
+    <tr><td>pro bono</td><td class="ru">бесплатно, в интересах общества</td><td>Professional Responsibility</td></tr>
+    <tr><td>nunc pro tunc</td><td class="ru">решение с обратной силой</td><td>Civil Procedure</td></tr>
+    <tr><td>subpoena duces tecum</td><td class="ru">повестка с требованием принести документы</td><td>Discovery</td></tr>
+    <tr><td>in camera</td><td class="ru">закрытое рассмотрение у судьи</td><td>Evidence (privileges)</td></tr>
+    <tr><td>de facto / de jure</td><td class="ru">фактически / юридически</td><td>Constitutional Law, Property</td></tr>
+    <tr><td>quantum meruit</td><td class="ru">«сколько заслужил» — equitable restitution</td><td>Contracts, Remedies</td></tr>
+    <tr><td>caveat emptor</td><td class="ru">«пусть покупатель остерегается» (в основном отменено)</td><td>Contracts, Real Property</td></tr>
+    <tr><td>mandamus</td><td class="ru">приказ должностному лицу совершить обязательное действие</td><td>Administrative Law, Remedies</td></tr>
+    <tr><td>certiorari</td><td class="ru">приказ о направлении дела на пересмотр</td><td>Appellate Procedure</td></tr>
+  </table>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Процессуальные глаголы — язык судебных действий</div>
+  <table class="comp-table">
+    <tr><th>Глагол</th><th class="ru">Значение</th></tr>
+    <tr><td>to file</td><td class="ru">подать документ в суд</td></tr>
+    <tr><td>to serve</td><td class="ru">вручить процессуальный документ стороне</td></tr>
+    <tr><td>to plead</td><td class="ru">заявлять в процессуальном документе</td></tr>
+    <tr><td>to move</td><td class="ru">ходатайствовать («to move for summary judgment»)</td></tr>
+    <tr><td>to enjoin</td><td class="ru">запрещать (выносить injunction)</td></tr>
+    <tr><td>to remand</td><td class="ru">направить обратно в нижестоящий суд</td></tr>
+    <tr><td>to reverse</td><td class="ru">отменить решение нижестоящего суда</td></tr>
+    <tr><td>to affirm</td><td class="ru">оставить решение в силе</td></tr>
+    <tr><td>to vacate</td><td class="ru">аннулировать решение</td></tr>
+    <tr><td>to stay</td><td class="ru">приостановить исполнение</td></tr>
+    <tr><td>to quash</td><td class="ru">отменить (повестку, обвинение)</td></tr>
+    <tr><td>to dismiss</td><td class="ru">прекратить дело</td></tr>
+    <tr><td>to impeach</td><td class="ru">ставить под сомнение (свидетеля, показания)</td></tr>
+  </table>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Специфические формулировки Bar Exam</div>
+  <div class="concept-card">
+    <div class="concept-card-title">«Discuss.»</div>
+    <div class="concept-card-body">В конце вопроса значит: <strong>применяй все релевантные доктрины</strong>, обсуди все защиты, структурируй по IRAC. Самая широкая инструкция.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">«What are the rights of X?»</div>
+    <div class="concept-card-body">Сосредоточься на конкретном лице, <strong>не на всех сторонах</strong>. Другие стороны — только если их действия релевантны для прав X.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">«What result?»</div>
+    <div class="concept-card-body">Требуется <strong>конкретный вывод</strong>. Кто выигрывает, какие remedies.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">«What are the defenses?»</div>
+    <div class="concept-card-body">Фокус на <strong>защитах</strong>, а не на основаниях иска. Не трать время на элементы иска, если не требуется.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">«Will likely» vs «must» — вероятностный язык</div>
+  <div class="hbox gold">
+    <div class="hbox-label">Всегда пиши вероятностно</div>
+    <div class="hbox-text"><strong>Хорошо:</strong> «The plaintiff will likely prevail on the negligence claim.»<br><strong>Плохо:</strong> «The plaintiff wins.»<br><br>Причина: американское право часто зависит от fact finder. Категоричные утверждения звучат непрофессионально. Используй: <em>will likely, should, probably, arguably, may</em>.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Register — регистр языка</div>
+  <div class="concept-card">
+    <div class="concept-card-title">Plain English movement</div>
+    <div class="concept-card-body">Современное движение за упрощение юридического языка. <strong>California Rules of Court местами требуют plain English</strong>. SEC требует plain English в prospectuses.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Legalese</div>
+    <div class="concept-card-body">Архаичные конструкции: <em>hereinafter, whereof, aforementioned, witnesseth, heretofore</em>. Ещё встречается в contracts, но всё меньше. На Bar пиши без них.</div>
+  </div>
+  <div class="concept-card">
+    <div class="concept-card-title">Bar Exam style</div>
+    <div class="concept-card-body">Пиши ясно. Избегай legalese, где возможно. Оценщики измотаны — простой язык читается быстрее и получает больше баллов. Короткие предложения, явная структура, ясные переходы.</div>
+  </div>
+</div>
+<div class="l-section">
+  <div class="l-section-label">Exam Traps</div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка: Plaintiff vs Petitioner</div>
+    <div class="hbox-text"><strong>Plaintiff</strong> — истец в общегражданском деле.<br><strong>Petitioner</strong> — заявитель в специальных производствах (habeas, cert, probate, family). Не синонимы. В апелляции plaintiff становится appellant (если проиграл) или appellee (если выиграл).</div>
+  </div>
+  <div class="hbox red">
+    <div class="hbox-label">Ловушка: Motion vs Petition</div>
+    <div class="hbox-text"><strong>Motion</strong> — ходатайство в рамках существующего дела. <strong>Petition</strong> — самостоятельный документ, инициирующий производство. Не взаимозаменяемы.</div>
+  </div>
 </div>`
       }
     ]
