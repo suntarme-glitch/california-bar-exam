@@ -155,10 +155,63 @@ const SUBJECTS = [
     </div>
     <div class="tl-item highlight">
       <div class="tl-year">1938</div>
-      <div class="tl-text"><strong>Erie Railroad v. Tompkins.</strong> Отменил Swift v. Tyson (1842) и установил: федерального general common law не существует. Федеральные суды в diversity cases применяют substantive law штата. Фундаментальное решение для Civil Procedure.</div>
+      <div class="tl-text"><strong>Erie Railroad v. Tompkins</strong> (Эри Рэйлроуд против Томпкинса). Отменил <strong>Swift v. Tyson</strong> (Свифт против Тайсона, 1842) и установил: федерального general common law не существует. Федеральные суды в diversity cases применяют substantive law штата. Фундаментальное решение для Civil Procedure.</div>
     </div>
   </div>
 </div>
+
+<div class="l-section">
+  <div class="l-section-label">Эри Рэйлроуд против Томпкинса (1938): конец федерального общего права</div>
+  <p class="l-text">Если <strong>Марбери против Мэдисона</strong> (Marbury v. Madison) — главное дело конституционного права, то <strong>Эри против Томпкинса</strong> — главное дело американского гражданского процесса. Оно перевернуло столетнюю практику и до сих пор определяет, какое право применяет федеральный суд, когда спор между жителями разных штатов.</p>
+
+  <div class="concept-card">
+    <div class="concept-card-title">Фабула: как Томпкинс потерял руку</div>
+    <div class="concept-card-body">Гарри Томпкинс шёл ночью вдоль железнодорожных путей компании <strong>Erie Railroad</strong> в Пенсильвании. Мимо проходил товарный поезд. Из открытой двери вагона торчал какой-то предмет — возможно, крюк или дверная ручка — который ударил Томпкинса и сбил с ног. Он упал под колёса и потерял правую руку. Томпкинс был жителем Пенсильвании, <strong>Erie Railroad</strong> — юридическое лицо штата Нью-Йорк. Иск подали в федеральный суд в Нью-Йорке на основании <span class="l-en">diversity jurisdiction</span> (юрисдикция по разному гражданству сторон).</div>
+  </div>
+
+  <div class="concept-card">
+    <div class="concept-card-title">В чём была проблема выбора права</div>
+    <div class="concept-card-body">По праву <strong>Пенсильвании</strong> Томпкинс считался <span class="l-en">trespasser</span> (нарушителем) — он шёл по частной территории железной дороги. Обязанность железной дороги перед trespasser минимальна: не причинять умышленного вреда. Томпкинс проиграл бы. Но его адвокаты подали иск в федеральный суд и потребовали применить <strong>federal general common law</strong>, по которому стандарт был выше — обычная небрежность (<span class="l-en">ordinary negligence</span>). Основанием было старое дело 1842 года — <strong>Свифт против Тайсона</strong>.</div>
+  </div>
+
+  <div class="concept-card">
+    <div class="concept-card-title">Свифт против Тайсона (Swift v. Tyson, 1842) — что отменили</div>
+    <div class="concept-card-body">В 1842 году Верховный суд под руководством Джозефа Стори истолковал <strong>Rules of Decision Act</strong> (секция 34 Judiciary Act of 1789) так: фразу «laws of the several states» надо понимать узко — только <em>статуты</em> штатов. В вопросах «общего права» (commercial law, tort law) федеральные суды свободны выводить <strong>собственное общее право</strong> (<span class="l-en">federal general common law</span>) — единое для всей страны. Идея Стори была красивая: единообразие коммерческого права по всей территории США.</div>
+  </div>
+
+  <div class="hbox red">
+    <div class="hbox-label">Что пошло не так за 96 лет</div>
+    <div class="hbox-text">Правило <strong>Свифта</strong> породило <span class="l-en">forum shopping</span> — игру с выбором суда. Истец, у которого по праву штата шансов мало, подавал иск в федеральный суд и добивался применения «федерального общего права», более выгодного. Разные штаты, разные федеральные округа — разные ответы на один и тот же спор. Особенно скандальным было дело <strong>Black &amp; White Taxicab</strong> (1928): компания перерегистрировалась в другом штате только ради доступа к федеральному суду и выгодному федеральному правилу.</div>
+  </div>
+
+  <div class="concept-card">
+    <div class="concept-card-title">Что сказал судья Брэндайс</div>
+    <div class="concept-card-body">Судья <strong>Луис Брэндайс</strong>, писавший решение большинства, пошёл дальше процедурного вопроса. Он заявил: <strong>сама идея «федерального общего права» неконституционна</strong>. Конституция (10-я поправка) оставляет общее право штатам. Федеральные суды не имеют полномочия его создавать. Поэтому <strong>Свифт против Тайсона</strong> был неверен не только как толкование закона — он нарушал Конституцию.</div>
+  </div>
+
+  <div class="hbox green">
+    <div class="hbox-label">Доктрина Эри (Erie Doctrine) — итог</div>
+    <div class="hbox-text">В <span class="l-en">diversity cases</span> федеральный суд обязан применять <strong>substantive law</strong> (материальное право) того штата, где он заседает, — включая <em>и</em> статуты, <em>и</em> судебные прецеденты штата. Своего «общего права» у федерального суда нет. Процессуальные правила (<span class="l-en">procedural</span>) остаются федеральными (Federal Rules of Civil Procedure).</div>
+  </div>
+
+  <div class="l-section-label" style="margin-top:24px">Ключевая цитата</div>
+  <div class="quote-box">
+    <div class="quote-text">«There is no federal general common law.»</div>
+    <div class="quote-author">— Justice Louis Brandeis, Erie R.R. v. Tompkins (1938)</div>
+  </div>
+  <p class="l-text"><strong>Перевод:</strong> «Федерального общего права не существует». Одна короткая фраза, отменившая 96 лет практики.</p>
+
+  <div class="hbox blue">
+    <div class="hbox-label">Почему это важно для Bar Exam</div>
+    <div class="hbox-text">Блок <strong>Civil Procedure</strong> почти всегда содержит вопрос на Erie-анализ: «Федеральный суд рассматривает diversity case. Правило штата X — одно, федеральный подход — другое. Какое применять?». Базовый ответ: <strong>substantive</strong> — штата, <strong>procedural</strong> — федеральное. Сложность в том, что граница между substantive и procedural не всегда очевидна (вопросы исковой давности, стандарта доказывания, burden of proof). Для этого есть отдельные тесты: <strong>Guaranty Trust</strong> (outcome-determinative test), <strong>Byrd v. Blue Ridge</strong> (balancing), <strong>Hanna v. Plumer</strong> (Federal Rule vs. state law).</div>
+  </div>
+
+  <div class="hbox">
+    <div class="hbox-label">Что осталось от federal common law после Эри</div>
+    <div class="hbox-text">Эри убил <em>общее</em> федеральное common law. Но в узких областях федеральное common law живёт: <strong>admiralty law</strong> (морское право), споры между штатами, обязательства США как юридического лица, права и обязанности федеральных офицеров, международные отношения. Это называется <span class="l-en">specialized federal common law</span> — и его существование подтвердил сам Брэндайс в другом деле того же дня (<strong>Hinderlider v. La Plata River Co.</strong>, 1938).</div>
+  </div>
+</div>
+
 <div class="l-section">
   <div class="l-section-label">California Constitution 1879 — живой документ</div>
   <div class="hbox gold">
