@@ -2,6 +2,7 @@ const CACHE = 'bar-exam-v1';
 const ASSETS = [
   '/',
   '/index.html',
+  '/data.js',
   'https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,800;1,9..144,300;1,9..144,600&family=Geist+Mono:wght@300;400;500&family=Geist:wght@300;400;500&display=swap'
 ];
 
