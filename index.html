@@ -1299,6 +1299,11 @@ function mergeProgress(a, b) {
   return merged;
 }
 
+function dimColor(color) {
+  const match = color.match(/^var\(--([a-z0-9-]+)\)$/i);
+  return match ? `var(--${match[1]}-dim)` : color;
+}
+
 function totalDone() {
   const prog = getProgress();
   let count = 0;
@@ -1409,9 +1414,9 @@ function openLesson(si, li) {
 
   const badge = document.getElementById('lesson-badge');
   badge.textContent = subj.icon + ' ' + subj.name;
-  badge.style.background = subj.color.replace('var(--', 'rgba(').replace(')', ', 0.12)');
+  badge.style.background = dimColor(subj.color);
   badge.style.color = subj.color;
-  badge.style.border = '1px solid ' + subj.color.replace(')', '-dim)').replace('var(--', 'var(--');
+  badge.style.border = '1px solid ' + dimColor(subj.color);
 
   document.getElementById('lesson-title').textContent = lesson.title;
   const savedNote = (getNotes()[subj.id] || {})[li] || '';
@@ -1521,8 +1526,10 @@ window.addEventListener('DOMContentLoaded', async () => {
     const remote = await gistLoad();
     if (remote) {
       const local = getProgress();
-      const merged = mergeProgress(local, remote);
+      const merged = mergeProgress(local, remote.progress || {});
       localStorage.setItem('barProgress', JSON.stringify(merged));
+      const mergedNotes = mergeNotes(getNotes(), remote.notes || {});
+      localStorage.setItem('barNotes', JSON.stringify(mergedNotes));
       renderDashboard(); renderSidebar(); renderProgress();
       await gistSave(merged);
     }
